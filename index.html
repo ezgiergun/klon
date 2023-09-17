@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Markamama</title>
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-    crossorigin="anonymous"
-  />
-  <link rel="stylesheet" href="css/owl.carousel.css">
-  <link rel="stylesheet" href="css/owl.theme.css">
-  <link rel="stylesheet" href="/css/main.css" />
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <link rel="stylesheet" href="/css/main.css" />
   </head>
 
   <body>
-    <div class="container-fluid m-0 p-0">
-      <div id="Header-top" class="row w-100 m-0 p-0">
+    <div id="Header-top" class="container-fluid m-0 p-0">
+      <div class="row w-100 m-0 p-0">
         <div class="col-12 m-0 p-0">
           <a
             href="www.markamama.com/vetcure"
@@ -31,140 +31,190 @@
           /></a>
         </div>
       </div>
-      <div id="Header-links"
-        class="row my-0 mx-auto py-4 px-0"
-        style="width: 1180px"
-      >
-        <div class="col-4">
-          <div class="logo pl-0 pr-4">
-            <a
-              href="/"
-              class="p-0 d-flex align-items-center text-decoration-none"
-            >
-              <div class="p-0 d-flex align-items-center">
-                <img
-                  src="data/logo.png"
-                  alt="logo-image"
-                  width="321"
-                  height="58"
-                  class="img-fluid"
-                  style="box-sizing: content-box; line-height: 16px"
-                />
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="search-bar w-100">
-            <form action="submit" class="w-100 position-relative">
-              <input
-                type="text"
-                placeholder="Aradığınız ürünün adını yazınız."
-                class="border border-grey-1 w-100 rounded-1 px-2"
-                autocomplete="off"
-                style="background-color: #f9f9f9; font-size: 13px; height: 50px"
-              />
-              <button
-                class="search-button position-absolute border-none m-auto"
-                type="submit"
-              ></button>
-            </form>
-          </div>
-        </div>
-        <div class="col-4">
-          <div
-            class="nav-buttons-wrapper row"
-          >
-            <div class="col px-2"
-            >
-              <a
-                href="/kargo-takip"
-                class=" text-decoration-none  position-relative   my-5" style="color: #979797; font-size: 14px; line-height: 18px;"
-              >
-                <div
-                  class=" d-flex align-items-center mb-1 justify-content-center"
-                  style="height: 30px"
-                >
-                  <img src="/data/kargo.png" alt="header-kargo-img" />
-                </div>
-                <span class="justify-content-center" style="font-size: 12px">Kargo Takip</span>
-              </a>
-            </div>
-            <div class="col">
-              <a
-                href="/favorites"
-                class="text-decoration-none  position-relative my-5" style="color: #979797; font-size: 14px; line-height: 18px;"
-              >
-                <div
-                  class="d-flex align-items-center mb-1 justify-content-center"
-                  style="height: 30px"
-                >
-                  <img src="/data/favorite.png" alt="header-favorite-img" />
-                </div>
-              <span style="font-size: 12px">Favorilerim</span></a
-              >
-            </div>
-            <div class="col ">
-              <a
-                href="/üye"
-                class=" text-decoration-none position-relative my-5" style="color: #979797; font-size: 14px; line-height: 18px;"
-              >
-                <div
-                  class="d-flex align-items-center mb-1 justify-content-center"
-                  style="height: 30px"
-                >
-                  <img src="/data/üye.png" alt="header-üye-img" />
-                </div>
-                <span style="font-size: 12px">Hesabım</span></a
-              >
-            </div>
-            <div class="col   ">
-              <a
-                href="/sepet"
-                class=" text-decoration-none  position-relative my-5" style="color: #979797; font-size: 14px; line-height: 18px;"
-              >
-                <div
-                  class="d-flex align-items-center mb-1 justify-content-center"
-                  style="height: 30px"
-                >
-                  <img src="/data/sepet.png" alt="header-sepet-img" />
-                </div>
-                <span
-                  class="cart-counter position-absolute border-white-1 text-center m-auto rounded-3"
-                  style="font-size: 10px"
-                  >0</span
-                >
-                <span style="font-size: 12px">Sepetim</span></a
-              >
-            </div>
-          </div>
-        </div>
       </div>
 
-      <div id="Header-menu"
-        class="mx-auto my-0 p-0 justify-content-center d-flex"
-        style="background-color: #f3f3f3"
+      <div id="Header-links" class="sticky-top container-fluid m-0 p-0">
+         <nav
+        class=" navbar navbar-expand-lg my-md-0 mx-auto py-md-4 mb-5 px-0"
+        style="background-color: #fff;"
       >
-        <div class="row" style="width: 1180px;  height: 50px;">
-          <div class="col-3 p-0 my-auto">
+        <div class="container-fluid" style="width: 1180px;">
+          <div class="col-md-4 col-5 d-flex justify-content-between align-items-baseline">
+            <div class="col-3 py-0  m-0 d-md-none align-items-center" style="width: 20px;">
+               <img src="data/menu.png" class="img-fluid pb-2 m-0" alt="menu-mobile" >
+            </button>
+            </div>
+            <div class="col-9 logo pl-0 pr-4">
+              <a
+                href="/"
+                class="navbar-brand p-0 d-flex align-items-center text-decoration-none"
+              >
+                <div class="p-0 d-flex align-items-center">
+                  <img
+                    src="data/logo.png"
+                    alt="logo-image"
+                    width="321"
+                    height="58"
+                    class="img-fluid"
+                    style="box-sizing: content-box; line-height: 16px"
+                  />
+                </div>
+              </a>
+            </div>
+            
+          </div>
+          <div class="col-md-4 d-none d-md-flex">
+            <div class="search-bar container-fluid">
+              <form
+                action="submit"
+                role="search"
+                class="w-100 position-relative"
+              >
+                <input
+                  type="search"
+                  placeholder="Aradığınız ürünün adını yazınız."
+                  class="form-control border border-grey-1 w-100 rounded-1 px-2"
+                  autocomplete="off"
+                  style="
+                    background-color: #f9f9f9;
+                    font-size: 13px;
+                    height: 50px;
+                  "
+                />
+                <button
+                  class="search-button position-absolute border-none m-auto"
+                  type="submit"
+                ></button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4 col-5">
+            <div class="container-fluid">
+                <div class="row d-flex">
+              <ul class="d-flex list-unstyled justify-content-end align-items-baseline">
+                <div class="col-md-3 col">
+                  <li class= "d-flex flex-column justify-content-center align-items-center nav-item">
+                  <div class="px-2 container-fluid py-0 m-0">
+                    <a
+                      href="/kargo-takip"
+                      class="text-decoration-none position-relative my-5"
+                      style="color: #000; font-size: 14px; line-height: 18px"
+                    >
+                      <div
+                        class="d-flex align-items-center justify-content-center"
+                        style="height: 30px"
+                      >
+                        <img src="/data/kargo.png" alt="header-kargo-img" class="img-fluid"/>
+                      </div>
+                      <span
+                        class="justify-content-center d-none d-md-flex"
+                        style="font-size: 12px"
+                        >Kargo Takip</span
+                      >
+                    </a>
+                  </div>
+                </li>
+              </div>
+              <div class="col-md-3 col">
+                <li class=" d-flex flex-column justify-content-center align-items-center nav-item">
+                  <div class="px-2">
+                    <a
+                      href="/favorites"
+                      class="text-decoration-none position-relative my-5"
+                      style="color: #000; font-size: 14px; line-height: 18px"
+                    >
+                      <div
+                        class="d-flex align-items-center mb-1 justify-content-center"
+                        style="height: 30px"
+                      >
+                        <img
+                          src="/data/favorite.png"
+                          alt="header-favorite-img"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class=" d-none d-md-flex" style="font-size: 12px">Favorilerim</span></a
+                    >
+                  </div>
+                </li>
+              </div>
+                <div class="col-md-3 col">
+                <li class= "d-flex flex-column justify-content-center align-items-center nav-item">
+                  <div class="px-2">
+                    <a
+                      href="/üye"
+                      class="text-decoration-none position-relative my-5"
+                      style="color: #000; font-size: 14px; line-height: 18px"
+                    >
+                      <div
+                        class="d-flex align-items-center mb-1 justify-content-center"
+                        style="height: 30px"
+                      >
+                        <img src="/data/üye.png" alt="header-üye-img" class="img-fluid" />
+                      </div>
+                      <span class=" d-none d-md-flex" style="font-size: 12px">Hesabım</span></a
+                    >
+                  </div>
+                </li>
+              </div>
+                <div class="col-md-3 col">
+                <li class= "d-flex flex-column justify-content-center align-items-center nav-item">
+                  <div class="px-2">
+                    <a
+                      href="/sepet"
+                      class="text-decoration-none position-relative my-5"
+                      style="color: #000; font-size: 14px; line-height: 18px"
+                    >
+                      <div
+                        class="d-flex align-items-center position-relative mb-1 justify-content-center"
+                        style="height: 30px"
+                      >
+                        <img src="/data/sepet.png" alt="header-sepet-img" class="img-fluid"/>
+                        <span
+                          class="cart-counter d-flex align-items-center justify-content-center position-absolute border-white-1 text-center my-auto rounded-3"
+                          style="font-size: 12px"
+                          >0</span
+                        >
+                      </div>
+
+                      <span class=" d-none d-md-flex" style="font-size: 12px">Sepetim</span></a
+                    >
+                  </div>
+                </li>
+              </div>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+        </nav>
+        <div
+        id="Header-menu"
+        class="mx-auto my-0 p-0 justify-content-center d-md-flex d-none"
+        style="background-color: #f3f3f3"
+        >
+        <div class="container-fluid">
+          <div
+            class="row navbar-collapse mx-auto"
+            id="navbarSupportedContent"
+            style="width: 1180px; height: 50px"
+          >
+            <div class="col-3 p-0 m-0">
               <a
                 href="/kopek"
-                class="w-100 d-flex text-center justify-content-center align-items-center text-decoration-none text-dark" 
+                class="nav-link col-12 d-flex text-center text-decoration-none justify-content-center align-items-center text-dark"
                 style="
                   font-size: 18px;
-                  border-left: 1px solid #f3f3f3;
+                  height: 50px;
                   border-right: 1px solid #e5e5e5;
-                  line-height: 13px;
                 "
                 >Köpek</a
               >
-    
-          </div>
-          <div class="col-3 p-0 m-0">
-            
+            </div>
+            <div class="col-3 p-0 m-0">
               <a
                 href="/kedi"
-                class="col-12 d-flex text-center text-decoration-none justify-content-center align-items-center text-dark"
+                class="nav-link col-12 d-flex text-center text-decoration-none justify-content-center align-items-center text-dark"
                 style="
                   font-size: 18px;
                   height: 50px;
@@ -172,13 +222,11 @@
                 "
                 >Kedi</a
               >
-            
-          </div>
-          <div class="col-3 p-0 m-0">
-           
+            </div>
+            <div class="col-3 p-0 m-0">
               <a
                 href="/kampanyalar"
-                class="col-12 d-flex text-center justify-content-center align-items-center text-decoration-none text-dark" 
+                class="nav-link col-12 d-flex text-center justify-content-center align-items-center text-decoration-none text-dark"
                 style="
                   font-size: 18px;
                   height: 50px;
@@ -186,42 +234,45 @@
                 "
                 >Kampanyalar</a
               >
-           
-          </div>
-          <div class="col-3 p-0 m-0">
-
+            </div>
+            <div class="col-3 p-0 m-0">
               <a
                 href="/turuncu-etiket"
-                class="col-12 d-flex text-center text-decoration-none justify-content-center align-items-center"
+                class="nav-link col-12 d-flex text-center text-decoration-none justify-content-center align-items-center"
                 style="
                   font-size: 18px;
                   height: 50px;
                   border-right: 1px solid #f3f3f3;
                   color: #fff;
-                  background-color: #ff6100
+                  background-color: #ff6100;
                 "
                 >Turuncu Etiket</a
               >
             </div>
           </div>
         </div>
+        </div>
       </div>
 
-      <div id="Storybar"
-        class="mx-auto mt-1 p-0 justify-content-center d-flex"
+      <div
+        id="Storybar"
+        class="mx-auto mt-md-1 mt-0 p-0 justify-content-center  container-fluid d-flex"
         style="background-color: #f3f3f3"
       >
-        <div class="row overflow-x-auto flex-nowrap pt-3" style="width: 1180px">
+        <div class="row overflow-x-auto flex-nowrap px-0  pt-3" style="width: 1180px">
+         
           <div
-            class="story-item col d-flex"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col ms-2 me-0 my-0 p-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center align-items-center  text-center text-dark" 
+              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark"
               style="width: 95px"
               action="link"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
+              class="img-fluid"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -229,8 +280,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/turuncu-etiketli-urunler_6918.png"
@@ -241,15 +290,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark "
+              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark"
               action="link"
               href="/firsatlar"
               style="width: 95px"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -257,68 +307,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
-                  object-fit: cover;
-                "
-                src="https://stock.setrow.com/media/__bianna/2147/markamama-outlet_3658.png"
-              />
-              <p
-                class="storyname d-flex"
-                style="font-size: 15px"
-                class="stories justify-content-start my-4 mx-0 d-flex overflow-x-auto"
-              >
-                Markamama Outlet
-              </p>
-            </a>
-          </div>
-          <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
-          >
-            <a
-              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark"  
-              style="width: 95px"
-              action="link"
-              href="/firsatlar"
-              ><img
-                style="
-                  border-radius: 50%;
-                  border-color: rgb(239, 127, 44);
-                  border-width: 2px;
-                  border-style: solid;
-                  width: 89px;
-                  height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
-                  object-fit: cover;
-                "
-                src="https://stock.setrow.com/media/__bianna/2147/turuncu-etiketli-urunler_6918.png"
-              />
-              <p class="storyname d-flex" style="font-size: 15px">
-                Turuncu Etiket
-              </p></a
-            >
-          </div>
-          <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
-          >
-            <a
-              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark"  
-              action="link"
-              href="/firsatlar"
-              style="width: 95px"
-              ><img
-                style="
-                  border-radius: 50%;
-                  border-color: rgb(239, 127, 44);
-                  border-width: 2px;
-                  border-style: solid;
-                  width: 89px;
-                  height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/markamama-outlet_3658.png"
@@ -329,15 +317,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark" 
+              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -345,8 +334,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kedi-mamasi_5124_5683.png"
@@ -357,15 +344,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark" 
+              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -373,8 +361,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kopek-mamasi_9962.png"
@@ -385,15 +371,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark" 
+              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -401,8 +388,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kedi-yasmamasi_5436.png"
@@ -413,15 +398,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark" 
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -429,8 +415,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kopek-yasmama_8547.png"
@@ -441,15 +425,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"  
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -457,8 +442,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kedi-odulmamasi_3068.png"
@@ -469,15 +452,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark" 
+              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -485,8 +469,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kopek-odulmamasi_5674.png"
@@ -497,15 +479,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark"  
+              class="text-decoration-none d-flex flex-column justify-content-center align-items-center text-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -513,8 +496,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kopek-oyuncagi_9394.png"
@@ -525,15 +506,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark" 
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -541,8 +523,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kedi-oyuncagi_7518.png"
@@ -553,15 +533,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center  text-dark" 
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -569,8 +550,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kedi-kumu_3281.png"
@@ -581,15 +560,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark" 
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -597,8 +577,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kopek-kemik_1511.png"
@@ -609,15 +587,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark "
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -625,8 +604,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kedi-taraklari_6803.png"
@@ -637,15 +614,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark " 
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -653,8 +631,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kedi-tuvaleti_2429.png"
@@ -665,15 +641,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center  text-dark " 
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -681,8 +658,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kopek-tasma_2306.png"
@@ -693,15 +668,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark " 
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -709,8 +685,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kedi-tasima_5791.png"
@@ -721,15 +695,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center  text-dark" 
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -737,8 +712,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kedi-tirmalama_7967.png"
@@ -749,15 +722,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark" 
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -765,8 +739,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/Kopek-bakim_6807.png"
@@ -777,15 +749,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark "
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -793,8 +766,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kopek-mamasu-kabi_7580.png"
@@ -805,15 +776,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark " 
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -821,8 +793,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kopek-vitaminleri_7889.png"
@@ -833,15 +803,16 @@
             >
           </div>
           <div
-            class="story-item col"
-            style="margin-right: 6px; padding-bottom: 5px"
+            class="story-item p-0 p-md-1 col m-0 col-md-1"
+            style="padding-bottom: 5px"
           >
             <a
-              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark " 
+              class="text-decoration-none d-flex flex-column justify-content-center text-center align-items-center text-dark"
               action="link"
               style="width: 95px"
               href="/firsatlar"
               ><img
+              class="img-fluid p-0 m-0"
                 style="
                   border-radius: 50%;
                   border-color: rgb(239, 127, 44);
@@ -849,8 +820,6 @@
                   border-style: solid;
                   width: 89px;
                   height: 89px;
-                  max-width: 100%;
-                  transition: border 0.3s;
                   object-fit: cover;
                 "
                 src="https://stock.setrow.com/media/__bianna/2147/kopek-yatagi_2596.png"
@@ -861,31 +830,33 @@
             >
           </div>
         </div>
+
       </div>
 
-      <div id="Slider"
+      <div
+        id="Slider"
         class="mx-auto pt-2 pb-1 my-0 justify-content-center"
         style="background-color: #f3f3f3"
       >
-        <div class="row mx-auto my-1" style="width: 1180px">
-          <div id="carouselExampleIndicators" class="carousel slide col-12">
+      <div class="container-fluid m-0 p-0">
+        <div class="row mx-auto my-1 p-0" style="width: 1180px">
+          <div id="carouselExampleIndicators" class="carousel slide col-md-12 col-4 m-0 p-0">
             <div
-              class="carousel-inner d-flex rounded-4"
+              class="carousel-inner d-flex rounded-4 "
               style="transition: all 0ms ease 0s"
             >
               <div
                 class="slide carousel-item active"
                 style="
                   opacity: 1;
-                  transform: translate3d(0px, 0px, 0px);
-                  transition: all 0ms ease 0s;
+                 
                 "
               >
                 <a href="/" class="">
                   <img
                     alt="slider-image"
                     src="https://www.markamama.com.tr/Data/GorselVitrin/K4/markamama-depo-slider-min.jpg"
-                    class=""
+                    class="img-fluid"
                   />
                 </a>
               </div>
@@ -894,15 +865,14 @@
                 style="
                   width: 1180px;
                   opacity: 1;
-                  transform: translate3d(0px, 0px, 0px);
-                  transition: all 0ms ease 0s;
                 "
               >
                 <a href="/" class="col-12">
                   <img
                     alt="slider-image"
                     src="https://www.markamama.com.tr/Data/GorselVitrin/K4/04-09-2023-luis-slider.jpg"
-                    class="col-12"
+                    class="img-fluid"
+                    
                   />
                 </a>
               </div>
@@ -911,15 +881,14 @@
                 style="
                   width: 1180px;
                   opacity: 1;
-                  transform: translate3d(0px, 0px, 0px);
-                  transition: all 0ms ease 0s;
+                 
                 "
               >
                 <a href="/" class="col-12">
                   <img
                     alt="slider-image"
                     src="https://markamama.com.tr/Data/GorselVitrin/K4/05-09-2023-selection-slider.jpg"
-                    class="col-12"
+                    class="img-fluid"
                   />
                 </a>
               </div>
@@ -928,14 +897,13 @@
                 style="
                   width: 1180px;
                   opacity: 1;
-                  transform: translate3d(0px, 0px, 0px);
-                  transition: all 0ms ease 0s;
+                 
                 "
               >
                 <a href="/" class="col-12">
                   <img alt="slider-image"
                   src="https://www.markamama.com.tr/Data/GorselVitrin/K4/04-09-2023-kedi-yas-mama-slider.jpg""
-                  class=" col-12" />
+                  class=" img-fluid" />
                 </a>
               </div>
               <div
@@ -943,15 +911,14 @@
                 style="
                   width: 1180px;
                   opacity: 1;
-                  transform: translate3d(0px, 0px, 0px);
-                  transition: all 0ms ease 0s;
+                 
                 "
               >
                 <a href="/" class="col-12">
                   <img
                     alt="slider-image"
                     src="https://www.markamama.com.tr/Data/GorselVitrin/K4/04-09-2023-nd-tropical-kedi-slider.jpg"
-                    class="col-12"
+                    class="img-fluid"
                   />
                 </a>
               </div>
@@ -960,15 +927,14 @@
                 style="
                   width: 1180px;
                   opacity: 1;
-                  transform: translate3d(0px, 0px, 0px);
-                  transition: all 0ms ease 0s;
+                 
                 "
               >
                 <a href="/" class="col-12">
                   <img
                     alt="slider-image"
                     src="https://www.markamama.com.tr/Data/GorselVitrin/K4/04-09-2023-kopek-yas-mama-slider.jpg"
-                    class="col-12"
+                    class="img-fluid"
                   />
                 </a>
               </div>
@@ -977,15 +943,14 @@
                 style="
                   width: 1180px;
                   opacity: 1;
-                  transform: translate3d(0px, 0px, 0px);
-                  transition: all 0ms ease 0s;
+                 
                 "
               >
                 <a href="/" class="col-12">
                   <img
                     alt="slider-image"
                     src="https://www.markamama.com.tr/Data/GorselVitrin/K4/04-09-2023-royal-canin-slide.jpg"
-                    class="col-12"
+                    class="img-fluid"
                   />
                 </a>
               </div>
@@ -994,15 +959,14 @@
                 style="
                   width: 1180px;
                   opacity: 1;
-                  transform: translate3d(0px, 0px, 0px);
-                  transition: all 0ms ease 0s;
+                 
                 "
               >
                 <a href="/" class="col-12">
                   <img
                     alt="slider-image"
                     src="https://markamama.com.tr/Data/GorselVitrin/K4/01-09-2023-proplan1-slider.jpg"
-                    class="float-start col-12"
+                    class=" img-fluid"
                   />
                 </a>
               </div>
@@ -1011,15 +975,14 @@
                 style="
                   width: 1180px;
                   opacity: 1;
-                  transform: translate3d(0px, 0px, 0px);
-                  transition: all 0ms ease 0s;
+                 
                 "
               >
-                <a href="/" class="float-start col-12">
+                <a href="/" class="col-12">
                   <img
                     alt="slider-image"
                     src="https://markamama.com.tr/Data/GorselVitrin/K4/04-09-2023-hills-slider.jpg"
-                    class="float-start col-12"
+                    class="img-fluid"
                   />
                 </a>
               </div>
@@ -1028,22 +991,20 @@
                 style="
                   width: 1180px;
                   opacity: 1;
-                  transform: translate3d(0px, 0px, 0px);
-                  transition: all 0ms ease 0s;
+                 
                 "
               >
-                <a href="/" class="float-start col-12">
+                <a href="/" class="col-12">
                   <img
                     alt="slider-image"
                     src="https://markamama.com.tr/Data/GorselVitrin/K4/04-09-2023-vetcure-slider.jpg"
-                    class="float-start col-12"
+                    class="img-fluid"
                   />
                 </a>
               </div>
             </div>
-
             <button
-              class="carousel-control-prev"
+              class="carousel-control-prev d-none d-md-flex"
               type="button"
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide="prev"
@@ -1061,10 +1022,9 @@
                   left: -10%;
                 "
               ></span>
-             
             </button>
             <button
-              class="carousel-control-next"
+              class="carousel-control-next d-none d-md-flex"
               type="button"
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide="next"
@@ -1082,13 +1042,12 @@
                   right: -10%;
                 "
               ></span>
-            
             </button>
           </div>
         </div>
-        <div class="row mx-auto my-1 p-0" style="width: 1180px">
-          <div class="owl-carousel owl-theme mx-auto" style="width: 1050px">
-              <button 
+        <div class="row mx-auto my-1 p-0 d-md-flex " style="width: 1180px">
+          <div id="owlSlider" class="owl-carousel owl-theme mx-auto d-md-flex d-none" style="width: 1050px">
+            <button 
                 type="button"
                 data-bs-target="#carouselExampleIndicators"
                 data-bs-slide-to="0"
@@ -1239,9 +1198,27 @@
                   style="max-width: 100%"
                 />
               </button>
-            </div>
-          
+          </div>
+          <div class="pagination container-sm-fluid m-0 p-0 d-md-none d-flex justify-content-center" style="width: 400px" >
+
+              <div class="paginate-buttons justify-content-center d-flex">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1" class="paginate-btn"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="paginate-btn"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="paginate-btn"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" class="paginate-btn"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5" class="paginate-btn"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6" class="paginate-btn"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7" class="paginate-btn"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8" class="paginate-btn"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9" class="paginate-btn"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10" class="paginate-btn"></button>
+              </div>
+            
+              
+          </div>
         </div>
+      
+      </div>
       </div>
 
       <div id="Brands" class="mx-auto py-2 my-0 justify-content-center">
@@ -1250,13 +1227,16 @@
             <h5 class="fw-normal">Popüler Markalar</h5>
           </div>
         </div>
-        <div class="row mx-auto my-1 p-0 " style="width: 1180px">
-          <div class="owl-carousel owl-theme">
+        <div class="row mx-auto my-1 p-0" style="width: 1180px">
+          <div id="owlBrand" class="owl-carousel owl-theme">
             <div class="slide-item" style="width: 133px">
-              <div class="d-flex justify-content-center align-items-center px-2">
+              <div
+                class="d-flex justify-content-center align-items-center px-2"
+              >
                 <a
                   href="/marka"
-                  class="d-flex text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/obivan-marka-logolar.jpg"
@@ -1272,7 +1252,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/luis-marka-logolar.jpg"
@@ -1288,7 +1269,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/vetcure-marka-logolari.jpg"
@@ -1304,7 +1286,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/nd-marka-logolari.jpg"
@@ -1320,7 +1303,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/royalcanin-marka-logolari.jpg"
@@ -1336,7 +1320,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/hills-marka-logolari.jpg"
@@ -1352,7 +1337,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/proplan-marka-logolar.jpg"
@@ -1368,7 +1354,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/tigres-marka-logolari.jpg"
@@ -1384,7 +1371,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/herniks-marka-logolar.jpg"
@@ -1400,7 +1388,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/luis-marka-logolar.jpg"
@@ -1416,7 +1405,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/vetcure-marka-logolari.jpg"
@@ -1432,7 +1422,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/nd-marka-logolari.jpg"
@@ -1448,7 +1439,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/royalcanin-marka-logolari.jpg"
@@ -1464,7 +1456,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/hills-marka-logolari.jpg"
@@ -1480,7 +1473,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/proplan-marka-logolar.jpg"
@@ -1496,7 +1490,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/tigres-marka-logolari.jpg"
@@ -1512,7 +1507,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/herniks-marka-logolar.jpg"
@@ -1528,7 +1524,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/parex-marka-logolar.jpg"
@@ -1544,7 +1541,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/miratorg-marka-logolari.jpg"
@@ -1560,7 +1558,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/felix-marka-logolari.jpg"
@@ -1576,7 +1575,8 @@
               >
                 <a
                   href="/marka"
-                  class="d-flex col-12 text-decoration-none" style="color: #979797; font-size: 14px; line-height: 18px;"
+                  class="d-flex col-12 text-decoration-none"
+                  style="color: #979797; font-size: 14px; line-height: 18px"
                 >
                   <img
                     src="https://www.markamama.com.tr/Data/EditorFiles/markalar/bozita-marka-logolar.jpg"
@@ -1590,7 +1590,8 @@
         </div>
       </div>
 
-      <div id="Product-categories1"
+      <div
+        id="Product-categories1"
         class="mx-auto py-2 my-0 justify-content-center"
       >
         <div class="row mx-auto my-1 p-0" style="width: 1180px">
@@ -1659,72 +1660,829 @@
         </div>
       </div>
 
-      <div id="Product-showcase1" >
-        <div class="row mx-auto my-1" style="width: 1180px">
+      <div id="Product-showcase1">
+        <div
+          class="row mx-auto my-1 rounded-2 py-1"
+          style="width: 1180px; background-color: #f7f0f0"
+        >
           <div class="col-3 d-flex justify-content-center">
-              <a href="/kedi-mamasi">
-              <img alt="kedi maması" src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamasi-kategori-banner3.jpg">
-              </a>
-              
+            <a href="/kedi-mamasi">
+              <img
+                alt="kedi maması"
+                src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamasi-kategori-banner3.jpg"
+              />
+            </a>
           </div>
-          <div class="col-9">
-            <div class="row">
-              <div class="col" style="background-color:#ffffff;">
-                <div class="image">
-                <a href="/nd-tropical" class="">
-                <img src="https://www.markamama.com.tr/nd-tropical-selection-kuzu-etli-kisirlastirilmis-kedi-mamasi-10-kg-kisirlastirilmis-kedi-mamalari-farmina-nd-46259-25-K.jpg" class="" alt="Farmina ">
+          <div class="col-9 m-0 p-0">
+            <div class="row w-100 mx-auto">
+              <div id="owlshowCase1" class="owl-carousel owl-theme">
+                <div
+                  class="col-3 item mx-1 px-3 rounded-1"
+                  style="background-color: #ffffff; width: 210px"
+                >
+                  <div class="row image mt-1">
+                    <a href="/nd-tropical" class="">
+                      <img
+                        src="https://www.markamama.com.tr/nd-tropical-selection-kuzu-etli-kisirlastirilmis-kedi-mamasi-10-kg-kisirlastirilmis-kedi-mamalari-farmina-nd-46259-25-K.jpg"
+                        class="img-fluid w-auto"
+                        alt="Farmina "
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row d-flex comment-star-wrapper mx-auto">
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                  </div>
+
+                  <div
+                    class="row brand d-flex flex-column"
+                    style="height: 107px"
+                  >
+                    <a
+                      href="/farmina-nd"
+                      style="color: #004079; font-size: 21px"
+                      class="text-decoration-none"
+                      >Farmina N&amp;D</a
+                    >
+                    <a
+                      href="/nd-tropical-"
+                      style="color: #6e6e6e"
+                      class="text-decoration-none"
+                    >
+                      N&amp;D Tropical Selection Kuzu Etli Kısırlaştırılmış Kedi
+                      Maması 10 KG
+                    </a>
+                  </div>
+
+                  <div
+                    class="row mx-1 discountedPrice text-decoration-line-through"
+                    style="color: #6e6e6e"
+                  >
+                    2.079,60 TL
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-6 d-flex currentPrice"
+                      style="color: #f7954b; font-size: 19px; font-weight: 500"
+                    >
+                      1.699,00 TL
+                      <div
+                        class="col-6 align-items-center showcase-btn d-flex flex-row"
+                        style="padding-bottom: 100px"
+                      >
+                        <a
+                          class="col-6 mx-1 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/fav2.png) no-repeat center;
+                          "
+                        ></a>
+                        <a
+                          class="col-6 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/cart2.png) no-repeat center;
+                          "
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3 item mx-1 px-3 rounded-1"
+                  style="background-color: #ffffff; width: 210px"
+                >
+                  <div class="row image mt-1">
+                    <a href="/nd-tropical" class="">
+                      <img
+                        src="https://www.markamama.com.tr/royal-canin-sterilised-37kisirlastirilmis-kedi-4-kg-kisirlastirilmis-kedi-mamalari-royal-canin-37188-82-K.jpg"
+                        class="img-fluid w-auto"
+                        alt="Farmina "
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row d-flex comment-star-wrapper mx-auto">
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                  </div>
+
+                  <div
+                    class="row brand d-flex flex-column"
+                    style="height: 107px"
+                  >
+                    <a
+                      href="/farmina-nd"
+                      style="color: #004079; font-size: 21px"
+                      class="text-decoration-none"
+                      >Royal Canin</a
+                    >
+                    <a
+                      href="/nd-tropical-"
+                      style="color: #6e6e6e"
+                      class="text-decoration-none"
+                    >
+                      Royal Canin Sterilised Kısırlaştırılmış Kedi Maması 4 KG
+                    </a>
+                  </div>
+
+                  <div
+                    class="row mx-1 discountedPrice text-decoration-line-through"
+                    style="color: #6e6e6e"
+                  >
+                    1.104,60 TL
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-6 d-flex currentPrice"
+                      style="color: #f7954b; font-size: 19px; font-weight: 500"
+                    >
+                      849,00 TL
+
+                      <div
+                        class="col-6 align-items-center showcase-btn d-flex flex-row"
+                        style="padding-bottom: 100px"
+                      >
+                        <a
+                          class="col-6 mx-1 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/fav2.png) no-repeat center;
+                          "
+                        ></a>
+                        <a
+                          class="col-6 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/cart2.png) no-repeat center;
+                          "
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3 item mx-1 px-3 rounded-1"
+                  style="background-color: #ffffff; width: 210px"
+                >
+                  <div class="row image mt-1">
+                    <a href="/nd-tropical" class="">
+                      <img
+                        src="https://www.markamama.com.tr/nd-dusuk-tahilli-tavuk-ve-narli-kisirlastirilmis-kedi-mamasi-15-kg-kisirlastirilmis-kedi-mamalari-farmina-nd-17823-84-K.jpg"
+                        class="img-fluid w-auto"
+                        alt="Farmina "
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row d-flex comment-star-wrapper mx-auto">
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                  </div>
+
+                  <div
+                    class="row brand d-flex flex-column"
+                    style="height: 107px"
+                  >
+                    <a
+                      href="/farmina-nd"
+                      style="color: #004079; font-size: 21px"
+                      class="text-decoration-none"
+                      >Farmina N&D</a
+                    >
+                    <a
+                      href="/nd-tropical-"
+                      style="color: #6e6e6e"
+                      class="text-decoration-none"
+                    >
+                      ND Düşük Tahıllı Tavuklu ve Narlı Kısırlaştırılmış Kedi
+                      Maması 1.5 Kg
+                    </a>
+                  </div>
+
+                  <div
+                    class="row mx-1 discountedPrice text-decoration-line-through"
+                    style="color: #6e6e6e"
+                  >
+                    1.104,60 TL
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-6 d-flex currentPrice"
+                      style="color: #f7954b; font-size: 19px; font-weight: 500"
+                    >
+                      849,00 TL
+
+                      <div
+                        class="col-6 align-items-center showcase-btn d-flex flex-row"
+                        style="padding-bottom: 100px"
+                      >
+                        <a
+                          class="col-6 mx-1 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/fav2.png) no-repeat center;
+                          "
+                        ></a>
+                        <a
+                          class="col-6 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/cart2.png) no-repeat center;
+                          "
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3 item mx-1 px-3 rounded-1"
+                  style="background-color: #ffffff; width: 210px"
+                >
+                  <div class="row image mt-1">
+                    <a href="/nd-tropical" class="">
+                      <img
+                        src="https://www.markamama.com.tr/luis-tavuklu-kedi-mamasi-15-kg-yetiskin-kedi-mamalari-1-7-yas-luis-35060-72-K.jpg"
+                        class="img-fluid w-auto"
+                        alt="Farmina "
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row d-flex comment-star-wrapper mx-auto">
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                  </div>
+
+                  <div class="row brand d-flex flex-column">
+                    <a
+                      href="/farmina-nd"
+                      style="color: #004079; font-size: 21px"
+                      class="text-decoration-none"
+                      >Luis</a
+                    >
+                    <a
+                      href="/nd-tropical-"
+                      style="color: #6e6e6e; height: 74px"
+                      class="text-decoration-none"
+                    >
+                      Luis Tavuklu Kedi Maması 15 KG
+                    </a>
+                  </div>
+
+                  <div
+                    class="row mx-1 discountedPrice text-decoration-line-through"
+                    style="color: #6e6e6e"
+                  >
+                    1.104,60 TL
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-6 d-flex currentPrice"
+                      style="color: #f7954b; font-size: 19px; font-weight: 500"
+                    >
+                      849,00 TL
+
+                      <div
+                        class="col-6 align-items-center showcase-btn d-flex flex-row"
+                        style="padding-bottom: 100px"
+                      >
+                        <a
+                          class="col-6 mx-1 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/fav2.png) no-repeat center;
+                          "
+                        ></a>
+                        <a
+                          class="col-6 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/cart2.png) no-repeat center;
+                          "
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3 item mx-1 px-3 rounded-1"
+                  style="background-color: #ffffff; width: 210px"
+                >
+                  <div class="row image mt-1">
+                    <a href="/nd-tropical" class="">
+                      <img
+                        src="https://www.markamama.com.tr/luis-tavuklu-kedi-mamasi-15-kg-yetiskin-kedi-mamalari-1-7-yas-luis-35060-72-K.jpg"
+                        class="img-fluid w-auto"
+                        alt="Farmina "
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row d-flex comment-star-wrapper mx-auto">
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                  </div>
+
+                  <div class="row brand d-flex flex-column">
+                    <a
+                      href="/farmina-nd"
+                      style="color: #004079; font-size: 21px"
+                      class="text-decoration-none"
+                      >Luis</a
+                    >
+                    <a
+                      href="/nd-tropical-"
+                      style="color: #6e6e6e; height: 74px"
+                      class="text-decoration-none"
+                    >
+                      Luis Tavuklu Kedi Maması 15 KG
+                    </a>
+                  </div>
+
+                  <div
+                    class="row mx-1 discountedPrice text-decoration-line-through"
+                    style="color: #6e6e6e"
+                  >
+                    1.104,60 TL
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-6 d-flex currentPrice"
+                      style="color: #f7954b; font-size: 19px; font-weight: 500"
+                    >
+                      849,00 TL
+
+                      <div
+                        class="col-6 align-items-center showcase-btn d-flex flex-row"
+                        style="padding-bottom: 100px"
+                      >
+                        <a
+                          class="col-6 mx-1 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/fav2.png) no-repeat center;
+                          "
+                        ></a>
+                        <a
+                          class="col-6 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/cart2.png) no-repeat center;
+                          "
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3 item mx-1 px-3 rounded-1"
+                  style="background-color: #ffffff; width: 210px"
+                >
+                  <div class="row image mt-1">
+                    <a href="/nd-tropical" class="">
+                      <img
+                        src="https://www.markamama.com.tr/luis-tavuklu-kedi-mamasi-15-kg-yetiskin-kedi-mamalari-1-7-yas-luis-35060-72-K.jpg"
+                        class="img-fluid w-auto"
+                        alt="Farmina "
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row d-flex comment-star-wrapper mx-auto">
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                  </div>
+
+                  <div class="row brand d-flex flex-column">
+                    <a
+                      href="/farmina-nd"
+                      style="color: #004079; font-size: 21px"
+                      class="text-decoration-none"
+                      >Luis</a
+                    >
+                    <a
+                      href="/nd-tropical-"
+                      style="color: #6e6e6e; height: 74px"
+                      class="text-decoration-none"
+                    >
+                      Luis Tavuklu Kedi Maması 15 KG
+                    </a>
+                  </div>
+
+                  <div
+                    class="row mx-1 discountedPrice text-decoration-line-through"
+                    style="color: #6e6e6e"
+                  >
+                    1.104,60 TL
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-6 d-flex currentPrice"
+                      style="color: #f7954b; font-size: 19px; font-weight: 500"
+                    >
+                      849,00 TL
+
+                      <div
+                        class="col-6 align-items-center showcase-btn d-flex flex-row"
+                        style="padding-bottom: 100px"
+                      >
+                        <a
+                          class="col-6 mx-1 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/fav2.png) no-repeat center;
+                          "
+                        ></a>
+                        <a
+                          class="col-6 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/cart2.png) no-repeat center;
+                          "
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mx-auto my-0">
+              <div class="col-2">
+                <a href="obivan-kedi-mamasi">
+                  <img
+                    class="img-fluid"
+                    alt="kedi maması"
+                    src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamasi-kategori-obivan-logo.jpg"
+                  />
                 </a>
-                </div>
-                
-                <div class="col-12 d-flex comment-star-wrapper">
-                <div class="comment-stars"></div>
-                <div class="comment-stars"></div>
-                <div class="comment-stars"></div>
-                <div class="comment-stars"></div>
-                <div class="comment-stars"></div>
-                <div class="pos-a pos-top pos-left stars" style="width:100%;">
-                <div class="comment-stars"></div>
-                <div class="comment-stars"></div>
-                <div class="comment-stars"></div>
-                <div class="comment-stars"></div>
-                <div class="comment-stars"></div>
-                </div>
-                </div>
-      
-                <div class="col-12 vitrin-brand">
-                <a href="/farmina-nd"  class="d-flex">Farmina N&amp;D</a>
-                <a href="/nd-tropical-" class="fl col-12">
-                  N&amp;D Tropical Selection Kuzu Etli Kısırlaştırılmış Kedi Maması 10 KG
-                  </a>
-                </div>
-             
-                <div class="price col-12">
-                <div class="discountedPrice">
-                2.079,60 TL
-                </div>
-                <div class="currentPrice">
-                1.699,00 TL
-                </div>
-                </div>
-                
-            
-              
-                </div>
-            </div>
-            </div>
-            <div class="row">
-              
-
+              </div>
+              <div class="col-2">
+                <a href="obivan-kedi-mamasi">
+                  <img
+                    class="img-fluid"
+                    alt="kedi maması"
+                    src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamas%C4%B1-luis-logo.jpg"
+                  />
+                </a>
+              </div>
+              <div class="col-2">
+                <a href="obivan-kedi-mamasi">
+                  <img
+                    class="img-fluid"
+                    alt="kedi maması"
+                    src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamasi-kategori-banner-royalcanin-logo3.jpg"
+                  />
+                </a>
+              </div>
+              <div class="col-2">
+                <a href="obivan-kedi-mamasi">
+                  <img
+                    class="img-fluid"
+                    alt="kedi maması"
+                    src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamas%C4%B1-hills-logo.jpg"
+                  />
+                </a>
+              </div>
+              <div class="col-2">
+                <a href="obivan-kedi-mamasi">
+                  <img
+                    class="img-fluid"
+                    alt="kedi maması"
+                    src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamasi-kategori-banner-proplan-logo3.jpg"
+                  />
+                </a>
+              </div>
+              <div class="col-2">
+                <a href="obivan-kedi-mamasi">
+                  <img
+                    class="img-fluid"
+                    alt="kedi maması"
+                    src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamasi-kategori-banner-nd-logo3.jpg"
+                  />
+                </a>
+              </div>
             </div>
           </div>
-
-        
         </div>
-        
       </div>
 
-
-      <div id="Product-categories2"
+      <div
+        id="Product-categories2"
         class="mx-auto py-2 my-0 justify-content-center"
       >
         <div class="row mx-auto my-1 p-0" style="width: 1180px">
@@ -1805,7 +2563,836 @@
         </div>
       </div>
 
-      <div id="Product-showcase2" class="row"></div>
+      <div id="Product-showcase2">
+        <div
+          class="row mx-auto my-1 rounded-2 py-1"
+          style="width: 1180px; background-color: #f7f0f0"
+        >
+          <div class="col-3 d-flex justify-content-center">
+            <a href="/kedi-mamasi">
+              <img
+                alt="kedi maması"
+                src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kopek-mamasi-kategori-banner.jpg"
+              />
+            </a>
+          </div>
+          <div class="col-9 m-0 p-0">
+            <div class="row w-100 mx-auto">
+              <div id="owlshowCase2" class="owl-carousel owl-theme">
+                <div
+                  class="col-3 item mx-1 px-3 rounded-1"
+                  style="background-color: #ffffff; width: 210px"
+                >
+                  <div class="row image mt-1">
+                    <a href="/nd-tropical" class="">
+                      <img
+                        src="https://www.markamama.com.tr/nd-dog-tropical-selection-kuzu-yetiskin-med/nd-tropical-selection-kuzu-etli-yetiskin-kopek-mamasi-10-kg-yetiskin-kopek-mamasi-farmina-nd-46271-26-K.jpg"
+                        class="img-fluid w-auto"
+                        alt="Farmina "
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row d-flex comment-star-wrapper mx-auto">
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                  </div>
+
+                  <div
+                    class="row brand d-flex flex-column"
+                    style="height: 107px"
+                  >
+                    <a
+                      href="/farmina-nd"
+                      style="color: #004079; font-size: 21px"
+                      class="text-decoration-none"
+                      >Farmina N&amp;D</a
+                    >
+                    <a
+                      href="/nd-tropical-"
+                      style="color: #6e6e6e"
+                      class="text-decoration-none"
+                    >
+                      N&D Tropical Selection Kuzu Etli Yetişkin Köpek Maması 10
+                      KG
+                    </a>
+                  </div>
+
+                  <div
+                    class="row mx-1 discountedPrice text-decoration-line-through"
+                    style="color: #6e6e6e"
+                  >
+                    2.079,60 TL
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-6 d-flex currentPrice"
+                      style="color: #f7954b; font-size: 19px; font-weight: 500"
+                    >
+                      1.699,00 TL
+                      <div
+                        class="col-6 align-items-center showcase-btn d-flex flex-row"
+                        style="padding-bottom: 100px"
+                      >
+                        <a
+                          class="col-6 mx-1 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/fav2.png) no-repeat center;
+                          "
+                        ></a>
+                        <a
+                          class="col-6 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/cart2.png) no-repeat center;
+                          "
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3 item mx-1 px-3 rounded-1"
+                  style="background-color: #ffffff; width: 210px"
+                >
+                  <div class="row image mt-1">
+                    <a href="/nd-tropical" class="">
+                      <img
+                        src="https://www.markamama.com.tr/obivan-kuzu-etli-ve-yaban-mersinli-yavru-kopek-mamasi-yavru-kopek-mamasi-obivan-46284-11-K.jpg"
+                        class="img-fluid w-auto"
+                        alt="Farmina "
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row d-flex comment-star-wrapper mx-auto">
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                  </div>
+
+                  <div
+                    class="row brand d-flex flex-column"
+                    style="height: 107px"
+                  >
+                    <a
+                      href="/farmina-nd"
+                      style="color: #004079; font-size: 21px"
+                      class="text-decoration-none"
+                    >
+                      Pro Plan
+                    </a>
+                    <a
+                      href="/nd-tropical-"
+                      style="color: #6e6e6e"
+                      class="text-decoration-none"
+                    >
+                      Pro Plan Tavuklu Küçük Irk Köpek Maması 3 KG
+                    </a>
+                  </div>
+
+                  <div
+                    class="row mx-1 discountedPrice text-decoration-line-through"
+                    style="color: #6e6e6e"
+                  >
+                    1.104,60 TL
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-6 d-flex currentPrice"
+                      style="color: #f7954b; font-size: 19px; font-weight: 500"
+                    >
+                      849,00 TL
+
+                      <div
+                        class="col-6 align-items-center showcase-btn d-flex flex-row"
+                        style="padding-bottom: 100px"
+                      >
+                        <a
+                          class="col-6 mx-1 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/fav2.png) no-repeat center;
+                          "
+                        ></a>
+                        <a
+                          class="col-6 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/cart2.png) no-repeat center;
+                          "
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3 item mx-1 px-3 rounded-1"
+                  style="background-color: #ffffff; width: 210px"
+                >
+                  <div class="row image mt-1">
+                    <a href="/nd-tropical" class="">
+                      <img
+                        src="https://www.markamama.com.tr/proplan-tavuklu-ve-pirincli-kucuk-irk-kopek-mamasi-3-kg-kucuk-irk-kopek-mamalari-pro-plan-18512-10-K.jpg"
+                        class="img-fluid w-auto"
+                        alt="Farmina "
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row d-flex comment-star-wrapper mx-auto">
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                  </div>
+
+                  <div
+                    class="row brand d-flex flex-column"
+                    style="height: 107px"
+                  >
+                    <a
+                      href="/farmina-nd"
+                      style="color: #004079; font-size: 21px"
+                      class="text-decoration-none"
+                      >Pro Plan
+                    </a>
+                    <a
+                      href="/nd-tropical-"
+                      style="color: #6e6e6e"
+                      class="text-decoration-none"
+                    >
+                      Pro Plan Küçük Irk Kuzu Etli Köpek Maması 3 KG
+                    </a>
+                  </div>
+
+                  <div
+                    class="row mx-1 discountedPrice text-decoration-line-through"
+                    style="color: #6e6e6e"
+                  >
+                    1.104,60 TL
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-6 d-flex currentPrice"
+                      style="color: #f7954b; font-size: 19px; font-weight: 500"
+                    >
+                      849,00 TL
+
+                      <div
+                        class="col-6 align-items-center showcase-btn d-flex flex-row"
+                        style="padding-bottom: 100px"
+                      >
+                        <a
+                          class="col-6 mx-1 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/fav2.png) no-repeat center;
+                          "
+                        ></a>
+                        <a
+                          class="col-6 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/cart2.png) no-repeat center;
+                          "
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3 item mx-1 px-3 rounded-1"
+                  style="background-color: #ffffff; width: 210px"
+                >
+                  <div class="row image mt-1">
+                    <a href="/nd-tropical" class="">
+                      <img
+                        src="https://www.markamama.com.tr/proplan-kucuk-irk-kuzu-etli-kopek-mamasi-3-kg-kucuk-irk-kopek-mamalari-pro-plan-45977-10-K.jpg"
+                        class="img-fluid w-auto"
+                        alt="Farmina "
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row d-flex comment-star-wrapper mx-auto">
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                  </div>
+
+                  <div
+                    class="row brand d-flex flex-column"
+                    style="height: 107px"
+                  >
+                    <a
+                      href="/farmina-nd"
+                      style="color: #004079; font-size: 21px"
+                      class="text-decoration-none"
+                      >Pro Plan</a
+                    >
+                    <a
+                      href="/nd-tropical-"
+                      style="color: #6e6e6e; height: 74px"
+                      class="text-decoration-none"
+                    >
+                      Pro Plan Kuzu Etli Köpek Maması 14 KG
+                    </a>
+                  </div>
+
+                  <div
+                    class="row mx-1 discountedPrice text-decoration-line-through"
+                    style="color: #6e6e6e"
+                  >
+                    1.104,60 TL
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-6 d-flex currentPrice"
+                      style="color: #f7954b; font-size: 19px; font-weight: 500"
+                    >
+                      849,00 TL
+
+                      <div
+                        class="col-6 align-items-center showcase-btn d-flex flex-row"
+                        style="padding-bottom: 100px"
+                      >
+                        <a
+                          class="col-6 mx-1 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/fav2.png) no-repeat center;
+                          "
+                        ></a>
+                        <a
+                          class="col-6 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/cart2.png) no-repeat center;
+                          "
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3 item mx-1 px-3 rounded-1"
+                  style="background-color: #ffffff; width: 210px"
+                >
+                  <div class="row image mt-1">
+                    <a href="/nd-tropical" class="">
+                      <img
+                        src="https://www.markamama.com.tr/proplan-kuzulu-pirincli-yavru-kopek-mamasi-12-kg-yavru-kopek-mamasi-pro-plan-0-46231-10-K.jpg"
+                        class="img-fluid w-auto"
+                        alt="Farmina "
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row d-flex comment-star-wrapper mx-auto">
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                  </div>
+
+                  <div
+                    class="row brand d-flex flex-column"
+                    style="height: 107px"
+                  >
+                    <a
+                      href="/farmina-nd"
+                      style="color: #004079; font-size: 21px"
+                      class="text-decoration-none"
+                      >Pro Plan</a
+                    >
+                    <a
+                      href="/nd-tropical-"
+                      style="color: #6e6e6e; height: 74px"
+                      class="text-decoration-none"
+                    >
+                      Pro Plan Kuzulu Yavru Köpek Maması 12 KG
+                    </a>
+                  </div>
+
+                  <div
+                    class="row mx-1 discountedPrice text-decoration-line-through"
+                    style="color: #6e6e6e"
+                  >
+                    1.104,60 TL
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-6 d-flex currentPrice"
+                      style="color: #f7954b; font-size: 19px; font-weight: 500"
+                    >
+                      849,00 TL
+
+                      <div
+                        class="col-6 align-items-center showcase-btn d-flex flex-row"
+                        style="padding-bottom: 100px"
+                      >
+                        <a
+                          class="col-6 mx-1 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/fav2.png) no-repeat center;
+                          "
+                        ></a>
+                        <a
+                          class="col-6 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/cart2.png) no-repeat center;
+                          "
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-3 item mx-1 px-3 rounded-1"
+                  style="background-color: #ffffff; width: 210px"
+                >
+                  <div class="row image mt-1">
+                    <a href="/nd-tropical" class="">
+                      <img
+                        src="https://www.markamama.com.tr/obivan-kuzu-etli-ve-yaban-mersinli-yavru-kopek-mamasi-yavru-kopek-mamasi-obivan-46284-11-K.jpg"
+                        class="img-fluid w-auto"
+                        alt="Farmina "
+                      />
+                    </a>
+                  </div>
+
+                  <div class="row d-flex comment-star-wrapper mx-auto">
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                    <div
+                      class="comment-stars p-0 d-inline-block"
+                      style="
+                        background: url(/data/patistar.png) no-repeat center;
+                        background-size: contain;
+                        width: 17px;
+                        height: 15px;
+                        margin-left: 4px;
+                      "
+                    ></div>
+                  </div>
+
+                  <div
+                    class="row brand d-flex flex-column"
+                    style="height: 107px"
+                  >
+                    <a
+                      href="/farmina-nd"
+                      style="color: #004079; font-size: 21px"
+                      class="text-decoration-none"
+                      >Obivan</a
+                    >
+                    <a
+                      href="/nd-tropical-"
+                      style="color: #6e6e6e; height: 74px"
+                      class="text-decoration-none"
+                    >
+                      Obivan Kuzu Etli ve Yaban Mersinli Yavru Köpek Maması 15
+                      KG
+                    </a>
+                  </div>
+
+                  <div
+                    class="row mx-1 discountedPrice text-decoration-line-through"
+                    style="color: #6e6e6e"
+                  >
+                    1.104,60 TL
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-6 d-flex currentPrice"
+                      style="color: #f7954b; font-size: 19px; font-weight: 500"
+                    >
+                      849,00 TL
+
+                      <div
+                        class="col-6 align-items-center showcase-btn d-flex flex-row"
+                        style="padding-bottom: 100px"
+                      >
+                        <a
+                          class="col-6 mx-1 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/fav2.png) no-repeat center;
+                          "
+                        ></a>
+                        <a
+                          class="col-6 rounded-5"
+                          style="
+                            width: 44px;
+                            height: 44px;
+                            border: 1px solid #f7954c;
+                            background: url(data/cart2.png) no-repeat center;
+                          "
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mx-auto my-0">
+              <div class="col-2">
+                <a href="obivan-kedi-mamasi">
+                  <img
+                    class="img-fluid"
+                    alt="kedi maması"
+                    src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamasi-kategori-obivan-logo.jpg"
+                  />
+                </a>
+              </div>
+              <div class="col-2">
+                <a href="obivan-kedi-mamasi">
+                  <img
+                    class="img-fluid"
+                    alt="kedi maması"
+                    src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamas%C4%B1-luis-logo.jpg"
+                  />
+                </a>
+              </div>
+              <div class="col-2">
+                <a href="obivan-kedi-mamasi">
+                  <img
+                    class="img-fluid"
+                    alt="kedi maması"
+                    src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamasi-kategori-banner-royalcanin-logo3.jpg"
+                  />
+                </a>
+              </div>
+              <div class="col-2">
+                <a href="obivan-kedi-mamasi">
+                  <img
+                    class="img-fluid"
+                    alt="kedi maması"
+                    src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamas%C4%B1-hills-logo.jpg"
+                  />
+                </a>
+              </div>
+              <div class="col-2">
+                <a href="obivan-kedi-mamasi">
+                  <img
+                    class="img-fluid"
+                    alt="kedi maması"
+                    src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamasi-kategori-banner-proplan-logo3.jpg"
+                  />
+                </a>
+              </div>
+              <div class="col-2">
+                <a href="obivan-kedi-mamasi">
+                  <img
+                    class="img-fluid"
+                    alt="kedi maması"
+                    src="https://www.markamama.com.tr/Data/EditorFiles/13yil/img/kedi-mamasi-kategori-banner-nd-logo3.jpg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div id="Banner" class="mx-auto py-2 my-0 justify-content-center">
         <div class="row mx-auto my-1 p-0" style="width: 1180px">
@@ -1870,310 +3457,910 @@
         </div>
       </div>
 
-
       <div id="Features" class="mx-auto py-2 my-0 justify-content-center">
         <div
-        class="row mx-auto my-1 py-4 align-items-center"
-        style="width: 1180px;"
-      >
-        <div class="col-3">
-        <div class="rounded-2 border p-4 d-flex flex-column align-items-center justify-content-between text-center" style="background: 1px solid #d4d4d4; min-height: 260px;">
-            <div class="d-flex align-items-center justify-content-between" style="height: 65px;">
-            <img src="/data/feature-1.png" class="img-fluid">
+          class="row mx-auto my-1 py-4 align-items-center"
+          style="width: 1180px"
+        >
+          <div class="col-3">
+            <div
+              class="rounded-2 border p-4 d-flex flex-column align-items-center justify-content-between text-center"
+              style="background: 1px solid #d4d4d4; min-height: 260px"
+            >
+              <div
+                class="d-flex align-items-center justify-content-between"
+                style="height: 65px"
+              >
+                <img src="/data/feature-1.png" class="img-fluid" />
+              </div>
+              <p
+                class="d-flex justify-content-center align-items-center"
+                style="color: #004079; font-weight: 500"
+              >
+                %100 GÜVENLİ ALIŞVERİŞ
+              </p>
+              <p
+                class="p-0"
+                style="font-size: 14px; color: #6e6e6e; line-height: 1.29"
+              >
+                256 Bit SSL &amp; 3D Secure İle Alışverişiniz Güvence Altında
+              </p>
             </div>
-            <p class="d-flex justify-content-center align-items-center" style="color: #004079; font-weight: 500;">%100 GÜVENLİ ALIŞVERİŞ</p>
-            <p class="p-0" style="font-size: 14px; color: #6e6e6e; line-height: 1.29;">256 Bit SSL &amp; 3D Secure İle Alışverişiniz Güvence Altında</p>
+          </div>
+          <div class="col-3">
+            <div
+              class="rounded-2 border p-4 d-flex flex-column align-items-center justify-content-between text-center"
+              style="background: 1px solid #d4d4d4; min-height: 260px"
+            >
+              <div
+                class="d-flex align-items-center justify-content-between"
+                style="height: 65px"
+              >
+                <img src="/data/feature-2.png" />
+              </div>
+              <p
+                class="d-flex justify-content-center align-items-center"
+                style="color: #004079; font-weight: 500"
+              >
+                KARGO BEDAVA
+              </p>
+              <p
+                class="p-0"
+                style="font-size: 14px; color: #6e6e6e; line-height: 1.29"
+              >
+                300 TL &amp; Üzeri Tüm Alışverişlerde Kargo Ücreti Bizden
+              </p>
             </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="rounded-2 border p-4 d-flex flex-column align-items-center justify-content-between text-center"
+              style="background: 1px solid #d4d4d4; min-height: 260px"
+            >
+              <div
+                class="d-flex align-items-center justify-content-between"
+                style="height: 65px"
+              >
+                <img src="/data/feature-3.png" />
+              </div>
+              <p
+                class="d-flex justify-content-center align-items-center"
+                style="color: #004079; font-weight: 500"
+              >
+                KARGO BEDAVA
+              </p>
+              <p
+                class="p-0"
+                style="font-size: 14px; color: #6e6e6e; line-height: 1.29"
+              >
+                300 TL &amp; Üzeri Tüm Alışverişlerde Kargo Ücreti Bizden
+              </p>
+            </div>
+          </div>
+          <div class="col-3">
+            <div
+              class="rounded-2 border p-4 d-flex flex-column align-items-center justify-content-between text-center"
+              style="background: 1px solid #d4d4d4; min-height: 260px"
+            >
+              <div
+                class="d-flex align-items-center justify-content-between"
+                style="height: 65px"
+              >
+                <img src="/data/feature-4.png" />
+              </div>
+              <p
+                class="d-flex justify-content-center align-items-center"
+                style="color: #004079; font-weight: 500"
+              >
+                WhatsApp SİPARİŞ HATTI
+              </p>
+              <p
+                class="p-0"
+                style="font-size: 14px; color: #6e6e6e; line-height: 1.29"
+              >
+                0554 871 66 20
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-3">
-        <div class="rounded-2 border p-4 d-flex flex-column align-items-center justify-content-between text-center" style="background: 1px solid #d4d4d4; min-height: 260px;">
-            <div class="d-flex align-items-center justify-content-between" style="height: 65px;">
-            <img src="/data/feature-2.png">
-            </div>
-             <p class="d-flex justify-content-center align-items-center" style="color: #004079; font-weight: 500;">KARGO BEDAVA</p>
-             <p class="p-0" style="font-size: 14px; color: #6e6e6e; line-height: 1.29;">300 TL &amp; Üzeri Tüm Alışverişlerde Kargo Ücreti Bizden</p>
-            </div>
-        </div>
-        <div class="col-3">
-        <div class="rounded-2 border p-4 d-flex flex-column align-items-center justify-content-between text-center" style="background: 1px solid #d4d4d4; min-height: 260px;">
-            <div class="d-flex align-items-center justify-content-between" style="height: 65px;">
-            <img src="/data/feature-3.png">
-            </div>
-             <p class="d-flex justify-content-center align-items-center" style="color: #004079; font-weight: 500;">KARGO BEDAVA</p>
-             <p class="p-0" style="font-size: 14px; color: #6e6e6e; line-height: 1.29;">300 TL &amp; Üzeri Tüm Alışverişlerde Kargo Ücreti Bizden</p>
-            </div>
-        </div>
-        <div class="col-3">
-        <div class="rounded-2 border p-4 d-flex flex-column align-items-center justify-content-between text-center" style="background: 1px solid #d4d4d4; min-height: 260px;">
-            <div class="d-flex align-items-center justify-content-between" style="height: 65px;">
-            <img src="/data/feature-4.png">
-            </div>
-             <p class="d-flex justify-content-center align-items-center" style="color: #004079; font-weight: 500;">WhatsApp SİPARİŞ HATTI</p>
-             <p class="p-0" style="font-size: 14px; color: #6e6e6e; line-height: 1.29;">0554 871 66 20</p>
-            </div>
-        </div>
-
       </div>
-      </div>
 
-      <div id="Blog" class="row"></div>
+      <div id="Blog" class="mx-auto py-2 my-0 justify-content-center">
+        <div class="row mx-auto my-1 p-0 mb-3" style="width: 1180px">
+          <div
+            class="col-12 text-center"
+            style="color: rgb(35, 31, 32); font-size: 20px; font-weight: 400"
+          >
+            Blog Yazılarımız
+          </div>
+        </div>
+        <div
+          class="row mx-auto my-0 justify-content-center align-items-center p-0 mb-3 gap-2"
+          style="width: 1180px"
+        >
+          <div id="owlBlog" class="owl-carousel owl-theme">
+            <div class="col-4 card p-0 my-0 mx-2" style="width: 370px">
+              <div class="row">
+                <div class="col-12">
+                  <img
+                    src="data/blog1.png"
+                    alt="Kediler Kertenkele Yer mi?"
+                    class="col-12"
+                  />
+                </div>
+              </div>
+              <div class="row p-2">
+                <div class="row mb-4 mt-2">
+                  <h5 style="font-size: 16px; font-weight: 600">
+                    Kediler Kertenkele Yer mi?
+                  </h5>
+                </div>
+                <div class="row">
+                  <span style="font-size: 15px; line-height: 18px"
+                    >Kediler kertenkele yer mi? Bu sorunun cevabı, kedilerin
+                    doğası gereği avcı ve etobur hayvanlar..</span
+                  >
+                </div>
+                <div class="row">
+                  <span class="col-12 mt-2" style="font-size: 10px"
+                    >15 Eylül 2023</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4 card p-0 m-0 mx-2" style="width: 370px">
+              <div class="row">
+                <div class="col-12">
+                  <img
+                    src="data/blog2.png"
+                    alt="Kediler Kertenkele Yer mi?"
+                    class="col-12"
+                  />
+                </div>
+              </div>
+              <div class="row p-2">
+                <div class="row mb-4 mt-2">
+                  <h5 style="font-size: 16px; font-weight: 600">
+                    Kedi Tuz Yer mi?
+                  </h5>
+                </div>
+                <div class="row">
+                  <span style="font-size: 15px; line-height: 18px"
+                    >Kediler tuz yer mi sorusu oldukça önemli bir detaya
+                    sahiptir, çünkü kedilerin tuz tüketimi üzerinde kontrollü
+                    olmanız önemlidir.</span
+                  >
+                </div>
+                <div class="row">
+                  <span class="col-12 mt-2" style="font-size: 10px"
+                    >15 Eylül 2023</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4 card p-0 m-0 mx-2" style="width: 370px">
+              <div class="row">
+                <div class="col-12">
+                  <img
+                    src="data/blog3.png"
+                    alt="Kediler Kertenkele Yer mi?"
+                    class="col-12"
+                  />
+                </div>
+              </div>
+              <div class="row p-2">
+                <div class="row mb-4 mt-2">
+                  <h5 style="font-size: 16px; font-weight: 600">
+                    Köpeklerde Deri Siyahlaşması Neden Olur?
+                  </h5>
+                </div>
+                <div class="row">
+                  <span style="font-size: 15px; line-height: 18px"
+                    >Köpeklerde deri siyahlaşması, bir dizi farklı sebeple
+                    ortaya çıkabilen dermatolojik bir hastalıktır.
+                  </span>
+                </div>
+                <div class="row">
+                  <span class="col-12 mt-2" style="font-size: 10px"
+                    >15 Eylül 2023</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4 card p-0 m-0 mx-2" style="width: 370px">
+              <div class="row">
+                <div class="col-12">
+                  <img
+                    src="data/blog4.png"
+                    alt="Kediler Kertenkele Yer mi?"
+                    class="col-12"
+                  />
+                </div>
+              </div>
+              <div class="row p-2">
+                <div class="row mb-4 mt-2">
+                  <h5 style="font-size: 16px; font-weight: 600">
+                    Dünyada Kaç Çeşit Köpek Türü Var?
+                  </h5>
+                </div>
+                <div class="row">
+                  <span style="font-size: 15px; line-height: 18px"
+                    >Dünyada, American Kennel Club (AKC) gibi köpek kulüpleri ve
+                    uluslararası organizasyonlar tarafından resmi olarak
+                    bilinen..</span
+                  >
+                </div>
+                <div class="row">
+                  <span class="col-12 mt-2" style="font-size: 10px"
+                    >15 Eylül 2023</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-4 card p-0 m-0 mx-2" style="width: 370px">
+              <div class="row">
+                <div class="col-12">
+                  <img
+                    src="data/blog1.png"
+                    alt="Kediler Kertenkele Yer mi?"
+                    class="col-12"
+                  />
+                </div>
+              </div>
+              <div class="row p-2">
+                <div class="row mb-4 mt-2">
+                  <h5 style="font-size: 16px; font-weight: 600">
+                    Köpekler Ne Kadar Uzaktan Koku Alır?
+                  </h5>
+                </div>
+                <div class="row">
+                  <span style="font-size: 15px; line-height: 18px"
+                    >Köpekler, inanılmaz seviyede gelişmiş bir koku alma
+                    yeteneğine sahip canlılardır. Tam da bu sebeple..</span
+                  >
+                </div>
+                <div class="row">
+                  <span class="col-12 mt-2" style="font-size: 10px"
+                    >15 Eylül 2023</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mx-auto my-1 p-0 mb-3" style="width: 1180px">
+          <div class="d-flex justify-content-center mx-auto">
+            <a
+              href="/blog"
+              class="text-center justify-content-center align-items-center d-flex btn text-decoration-none rounded-5 border-none"
+              style="
+                width: 180px;
+                height: 45px;
+                background-color: #f7954c;
+                color: #fff;
+                font-weight: 500;
+              "
+              >Tüm Bloglar</a
+            >
+          </div>
+        </div>
+      </div>
 
       <div id="About-us" class="mx-auto py-2 my-0 justify-content-center">
         <div
-        class="row mx-auto my-1 py-4 align-items-center"
-        style="width: 1180px;">
-            <div class="col-12 mb-0 p-0">
-            <h4 class="" style="font-family:'Lucida Sans', sans-serif; font-weight: 900;">Markamama.com</h4>
-            <p class="mb-0 p-0" style="font-size: 16px;">12 yıldır, hayvanseverlerin en güvendiği online petshop markası olmanın gururunu yaşıyoruz. Kurucusu 1995’ten beri girişimci ruhlu, 3 veteriner polikliniği, 1 köpek eğitim merkezi ve oteli olan bir veteriner hekimin, “İşimiz değil, aşkımız” mottosuyla, hayvanlarla iç içe çalıştığı büyük bir ekiple beraberiz. Markamama.com yaptığı yeniliklerle online petshop sektörüne yön veriyor. 35’den fazla kategori ile evcil hayvan besleyenlerin tüm ihtiyaçlarına, en özel ürünlere, en kaliteli markalara bünyesinde yer verirken, hızlı teslimat ve %100 müşteri memnuniyeti hedefiyle ilerleyen, standartlarını her geçen gün yenilikçi ruhu ile arttıran doğru adres.</p>
-            <div class="collapse mb-0 p-0 " id="Collapse-about-us">
-            <p>&nbsp;</p>
-            <p ><strong>Turuncu Etiket</strong></p>
-            <p >Markamama.com’da en sevilen evcil hayvan ürünlerinde, 24 saatte bir yenilenen Turuncu Etiketli Ürünlerdeki fırsatları kaçırmayın!</p>
-            <p >En iyi petshop ürünleri, en uygun fiyatlarla sizleri bekliyor.</p>
-            <p >Mamadan, oyuncaklara, vitaminden, taşıma çantalarına kadar aradığınız tüm <a href="/kedi">kedi ürünleri</a> ve <a href="/kopek">köpek ürünleri</a> online petshop adresiniz Markamama.com’da.</p>
-            <p >Kediniz için en güzel tırmalama tahtasını, köpeğiniz için en uygun şampuanı Turuncu etiketli ürünlerde bulabilir fırsatlardan yararlanabilirsiniz.</p>
-            <p >Her gün yenilenen turuncu etiketli ürünleri kaçırmamak için telefonunuzun Apple Store veya Google Play App Store’dan Markamama.com uygulamasını hemen indirin.</p>
-            <p >Bildirimlerinizi açın. En sevilen kedi ve köpek ürünlerine tükenmeden ulaşın.</p>
-            <p>&nbsp;</p>
-            <p ><strong>4 Ekim Hayvanları Koruma Günü Markamama Sosyal Sorumluluk Projesi</strong></p>
-            <p >Sokaktaki dostlarımız için bir masaldan bir farkındalığa.</p>
-            <p >Markamama.com olarak çocuklarımızda ve biz ebeveynlerde sokak hayvanlarına karşı güçlü bir farkındalık oluşturmak için 4 Ekim hayvanları koruma gününde Tarçın isimli çocuk kitabını yayınlayarak sosyal sorumluluk projesini başlattık. Amacımız çocuklarımızın sevgi dolu dünyasına bu masalla dokunmaya çalışmak. Masalın tanıtım animasyonunu da çocuklarımızın hayal dünyalarını zenginleştirecek şekilde tasarladık. Tanıtım animasyonumuzu birçok dijital kanal üzerinden paylaşarak daha fazla çocuğa ulaşmasını sağlamak istiyoruz. Bu konuda influencerlar ve hayvan dostu ebeveynler bu projenin daha fazla kişiye ulaşmasında en büyük destekçilerimiz. Aynı zamanda yürütmüş olduğumuz bu farkındalık projesi sadece minik patili dostlarımıza yuva bulmayı amaçlamıyor. Mustafa Kemal Atatürk'ün de dediği gibi bugünün küçükleri yarının büyükleri.</p>
-            <p >Tüm hayvanların daha güzel bir dünyada yaşamlarını sürdürmesi için onların hayvan ve doğa sevgisine ufak da olsa bir katkı sağlamak asıl amacımızdır. Doğanın bize öğrettiği bir şey var. Hayatımızı bütün canlılarla paylaşmak.</p>
-            <p >Bu proje kapsamında Türkiye’nin her yerinde okulların ve öğretmenlerimizin desteği ile Tarçın kitabını çocuklarımıza ulaştırmayı hedefliyoruz. Bu proje kapsamında şimdiye kadar 100’den fazla okula ve 1000’lerde çocuğa ulaşarak sokakta annesinden ayrılarak kaybolan Tarçın’ın hikayesini anlattık. Beraberinde okullarımıza göndermiş olduğumuz Luis kedi ve köpek mamaları ile çocuklarımızın sokak hayvanlarını beslemeleri ile ilgili farkındalık hareketini başlattık. Tarçın’ın kitabını ücretsiz olarak Markamama.com sitesinden indirebilir sokak hayvanlarını korumak ve sahiplendirmek için başlattığımız bu projeye destek verebilirsiniz.</p>
-            <p >“Besle, Mutlu Et” mottosu ile sokak hayvanlarını beslemek için sizde Luis Kedi ve Köpek mamalarına Markamama.com’dan sipariş verebilirsiniz.</p>
-            <p>&nbsp;</p>
-            <p ><strong>En Sevilen Kedi Köpek Maması Markaları Markamama.com’da</strong></p>
-            <p >Dünya’nın en ünlü ithal kedi ve köpek mama markalarından <a href="/royal-canin">Royal Canin</a>, Pro plan, Bozita, Acana, Hills, ND, Golosi, Dr. Sacchi, Reflex, Pro Performance, Pro Choice, Matisse, Petline ve en çok sevilen kedi ve köpek ürünleri markalarından Trixie, Furminatör, Bioline, Beaphear Markamama.com’da. En kaliteli ve seçkin kedi ve <a href="/kopek-mamasi">köpek maması</a> için oturduğunuz yerden sipariş vermek size zaman kazandıracak. Aradığınız özel ırk mamalarında zengin yelpaze sunan Markamama.com her bütçeye uygun kedi ve köpek ürünlerine web sitesinde yer veriyor.</p>
-            <p><strong>&nbsp;</strong></p>
-            <p ><strong>Evcil Hayvanınızın Evdeki Konforu</strong></p>
-            <p >Kedinizin kendini güvende hissetmesini istiyorsanız günün yaklaşık 17 saatini uyuyarak geçiren kediler için kedi yatağı ürünleri hem konfor hem de huzur anlamına gelir.</p>
-            <p >Evin en konforlu yerini bulup yatan kediler için en iyi yatak yoktur. Her kedinin kendi karakteri, istekleri, beklentileri olduğu için ona özel seçim yapılması tavsiye edilir.</p>
-            <p >Kedi yatağı tasarımlarında, sevimli dostların rahatlığı önceliktir.</p>
-            <p >Malzemelerin yüksek kaliteye sahip olması, fonksiyonel olması da kediler için yatak alternatifi araştıranların önceliğidir.</p>
-            <p >Yıkanabilir özellikte olması da onların sağlığı için önemlidir. Kedi yataklarını yıkarken, hayvanlar için zararlı olmayan deterjanların kullanıldığından emin olmak gerekir.</p>
-            <p >Markamama.com’da yumuşak ve sıcak dokulu simit kedi yataklarından, yer kaplamayan cama yapışan veya kalorifere takılabilen kedi yatakları çeşitlerine ulaşabilirsiniz.</p>
-            <p><strong>&nbsp;</strong></p>
-            <p ><strong>Markamama.com’a Özel Markalar</strong></p>
-            <p >Evcil hayvanlarınızın beslenme ihtiyaçlarını göz önünde bulunduran, doğadan ilham alınarak %100 yerli üretim, yeme garantili Obivan Kedi ve Köpek Mamaları Markamama.com’da satışta.</p>
-            <p >Ürünlere hemen göz atın. Havale ile ödeme, kapıda ödeme ile %100 orijinal ürün. Güvenli alışveriş ve uygun fiyatlarla tüm Türkiye'ye hızlı kargo.</p>
-            <p >Şimdi kedi ve köpekler için özel üretilmiş Obivan kuru mamaları, yaş mamaları ve destekleyici vitaminleri ile tanışın.</p>
-            <p><strong>&nbsp;</strong></p>
-            <p ><strong>Birden Fazla Kedi Besleyenlere Öneriler</strong></p>
-            <p >Birden fazla kedi besliyorsanız, &nbsp;<a href="/kedi-mamasi">kedi maması</a> ihtiyacınızda artmış demektir. Artık 15kg’lık paketlere geçerek avantajlı fiyatlardan yararlanmanın zamanı geldi. Onlar beraber sarılmış uyurken sizde web sitesinden</p>
-            <p >15 Kg’lık mama siparişinizi bir tıkla verebilirsiniz. Kapınıza kadar gelecek ve mama bitme derdini ortadan kaldıracaksınız. İki kedi beslemek kedi maması miktarı veya diğer ihtiyaçlarında masrafı arttırsa da sorumluluğunuz da bir hayli azalacaktır. Uzun saatler evde olmamanız durumunda yalnız kalmaktan&nbsp;psikolojik sorunlar&nbsp;yaşamaz, birbirleriyle vakit geçirerek eğlenecekler. Enerjilerini sizinle birlikte çeşitli oyunlar oynayarak harcadıkları için geceleri rahatça uykuya dalarlar. Tabii ki evdeki huzurunuzda en az iki katına çıkacaktır. Bu da paha biçilemez.</p>
-            <p>&nbsp;</p>
+          class="row mx-auto my-1 py-4 align-items-center"
+          style="width: 1180px"
+        >
+          <div class="col-12 mb-0 p-0">
+            <h4
+              class=""
+              style="font-family: 'Lucida Sans', sans-serif; font-weight: 900"
+            >
+              Markamama.com
+            </h4>
+            <p class="mb-0 p-0" style="font-size: 16px">
+              12 yıldır, hayvanseverlerin en güvendiği online petshop markası
+              olmanın gururunu yaşıyoruz. Kurucusu 1995’ten beri girişimci
+              ruhlu, 3 veteriner polikliniği, 1 köpek eğitim merkezi ve oteli
+              olan bir veteriner hekimin, “İşimiz değil, aşkımız” mottosuyla,
+              hayvanlarla iç içe çalıştığı büyük bir ekiple beraberiz.
+              Markamama.com yaptığı yeniliklerle online petshop sektörüne yön
+              veriyor. 35’den fazla kategori ile evcil hayvan besleyenlerin tüm
+              ihtiyaçlarına, en özel ürünlere, en kaliteli markalara bünyesinde
+              yer verirken, hızlı teslimat ve %100 müşteri memnuniyeti hedefiyle
+              ilerleyen, standartlarını her geçen gün yenilikçi ruhu ile
+              arttıran doğru adres.
+            </p>
+            <div class="collapse mb-0 p-0" id="Collapse-about-us">
+              <p>&nbsp;</p>
+              <p><strong>Turuncu Etiket</strong></p>
+              <p>
+                Markamama.com’da en sevilen evcil hayvan ürünlerinde, 24 saatte
+                bir yenilenen Turuncu Etiketli Ürünlerdeki fırsatları
+                kaçırmayın!
+              </p>
+              <p>
+                En iyi petshop ürünleri, en uygun fiyatlarla sizleri bekliyor.
+              </p>
+              <p>
+                Mamadan, oyuncaklara, vitaminden, taşıma çantalarına kadar
+                aradığınız tüm <a href="/kedi">kedi ürünleri</a> ve
+                <a href="/kopek">köpek ürünleri</a> online petshop adresiniz
+                Markamama.com’da.
+              </p>
+              <p>
+                Kediniz için en güzel tırmalama tahtasını, köpeğiniz için en
+                uygun şampuanı Turuncu etiketli ürünlerde bulabilir fırsatlardan
+                yararlanabilirsiniz.
+              </p>
+              <p>
+                Her gün yenilenen turuncu etiketli ürünleri kaçırmamak için
+                telefonunuzun Apple Store veya Google Play App Store’dan
+                Markamama.com uygulamasını hemen indirin.
+              </p>
+              <p>
+                Bildirimlerinizi açın. En sevilen kedi ve köpek ürünlerine
+                tükenmeden ulaşın.
+              </p>
+              <p>&nbsp;</p>
+              <p>
+                <strong
+                  >4 Ekim Hayvanları Koruma Günü Markamama Sosyal Sorumluluk
+                  Projesi</strong
+                >
+              </p>
+              <p>Sokaktaki dostlarımız için bir masaldan bir farkındalığa.</p>
+              <p>
+                Markamama.com olarak çocuklarımızda ve biz ebeveynlerde sokak
+                hayvanlarına karşı güçlü bir farkındalık oluşturmak için 4 Ekim
+                hayvanları koruma gününde Tarçın isimli çocuk kitabını
+                yayınlayarak sosyal sorumluluk projesini başlattık. Amacımız
+                çocuklarımızın sevgi dolu dünyasına bu masalla dokunmaya
+                çalışmak. Masalın tanıtım animasyonunu da çocuklarımızın hayal
+                dünyalarını zenginleştirecek şekilde tasarladık. Tanıtım
+                animasyonumuzu birçok dijital kanal üzerinden paylaşarak daha
+                fazla çocuğa ulaşmasını sağlamak istiyoruz. Bu konuda
+                influencerlar ve hayvan dostu ebeveynler bu projenin daha fazla
+                kişiye ulaşmasında en büyük destekçilerimiz. Aynı zamanda
+                yürütmüş olduğumuz bu farkındalık projesi sadece minik patili
+                dostlarımıza yuva bulmayı amaçlamıyor. Mustafa Kemal Atatürk'ün
+                de dediği gibi bugünün küçükleri yarının büyükleri.
+              </p>
+              <p>
+                Tüm hayvanların daha güzel bir dünyada yaşamlarını sürdürmesi
+                için onların hayvan ve doğa sevgisine ufak da olsa bir katkı
+                sağlamak asıl amacımızdır. Doğanın bize öğrettiği bir şey var.
+                Hayatımızı bütün canlılarla paylaşmak.
+              </p>
+              <p>
+                Bu proje kapsamında Türkiye’nin her yerinde okulların ve
+                öğretmenlerimizin desteği ile Tarçın kitabını çocuklarımıza
+                ulaştırmayı hedefliyoruz. Bu proje kapsamında şimdiye kadar
+                100’den fazla okula ve 1000’lerde çocuğa ulaşarak sokakta
+                annesinden ayrılarak kaybolan Tarçın’ın hikayesini anlattık.
+                Beraberinde okullarımıza göndermiş olduğumuz Luis kedi ve köpek
+                mamaları ile çocuklarımızın sokak hayvanlarını beslemeleri ile
+                ilgili farkındalık hareketini başlattık. Tarçın’ın kitabını
+                ücretsiz olarak Markamama.com sitesinden indirebilir sokak
+                hayvanlarını korumak ve sahiplendirmek için başlattığımız bu
+                projeye destek verebilirsiniz.
+              </p>
+              <p>
+                “Besle, Mutlu Et” mottosu ile sokak hayvanlarını beslemek için
+                sizde Luis Kedi ve Köpek mamalarına Markamama.com’dan sipariş
+                verebilirsiniz.
+              </p>
+              <p>&nbsp;</p>
+              <p>
+                <strong
+                  >En Sevilen Kedi Köpek Maması Markaları
+                  Markamama.com’da</strong
+                >
+              </p>
+              <p>
+                Dünya’nın en ünlü ithal kedi ve köpek mama markalarından
+                <a href="/royal-canin">Royal Canin</a>, Pro plan, Bozita, Acana,
+                Hills, ND, Golosi, Dr. Sacchi, Reflex, Pro Performance, Pro
+                Choice, Matisse, Petline ve en çok sevilen kedi ve köpek
+                ürünleri markalarından Trixie, Furminatör, Bioline, Beaphear
+                Markamama.com’da. En kaliteli ve seçkin kedi ve
+                <a href="/kopek-mamasi">köpek maması</a> için oturduğunuz yerden
+                sipariş vermek size zaman kazandıracak. Aradığınız özel ırk
+                mamalarında zengin yelpaze sunan Markamama.com her bütçeye uygun
+                kedi ve köpek ürünlerine web sitesinde yer veriyor.
+              </p>
+              <p><strong>&nbsp;</strong></p>
+              <p><strong>Evcil Hayvanınızın Evdeki Konforu</strong></p>
+              <p>
+                Kedinizin kendini güvende hissetmesini istiyorsanız günün
+                yaklaşık 17 saatini uyuyarak geçiren kediler için kedi yatağı
+                ürünleri hem konfor hem de huzur anlamına gelir.
+              </p>
+              <p>
+                Evin en konforlu yerini bulup yatan kediler için en iyi yatak
+                yoktur. Her kedinin kendi karakteri, istekleri, beklentileri
+                olduğu için ona özel seçim yapılması tavsiye edilir.
+              </p>
+              <p>
+                Kedi yatağı tasarımlarında, sevimli dostların rahatlığı
+                önceliktir.
+              </p>
+              <p>
+                Malzemelerin yüksek kaliteye sahip olması, fonksiyonel olması da
+                kediler için yatak alternatifi araştıranların önceliğidir.
+              </p>
+              <p>
+                Yıkanabilir özellikte olması da onların sağlığı için önemlidir.
+                Kedi yataklarını yıkarken, hayvanlar için zararlı olmayan
+                deterjanların kullanıldığından emin olmak gerekir.
+              </p>
+              <p>
+                Markamama.com’da yumuşak ve sıcak dokulu simit kedi
+                yataklarından, yer kaplamayan cama yapışan veya kalorifere
+                takılabilen kedi yatakları çeşitlerine ulaşabilirsiniz.
+              </p>
+              <p><strong>&nbsp;</strong></p>
+              <p><strong>Markamama.com’a Özel Markalar</strong></p>
+              <p>
+                Evcil hayvanlarınızın beslenme ihtiyaçlarını göz önünde
+                bulunduran, doğadan ilham alınarak %100 yerli üretim, yeme
+                garantili Obivan Kedi ve Köpek Mamaları Markamama.com’da
+                satışta.
+              </p>
+              <p>
+                Ürünlere hemen göz atın. Havale ile ödeme, kapıda ödeme ile %100
+                orijinal ürün. Güvenli alışveriş ve uygun fiyatlarla tüm
+                Türkiye'ye hızlı kargo.
+              </p>
+              <p>
+                Şimdi kedi ve köpekler için özel üretilmiş Obivan kuru mamaları,
+                yaş mamaları ve destekleyici vitaminleri ile tanışın.
+              </p>
+              <p><strong>&nbsp;</strong></p>
+              <p><strong>Birden Fazla Kedi Besleyenlere Öneriler</strong></p>
+              <p>
+                Birden fazla kedi besliyorsanız, &nbsp;<a href="/kedi-mamasi"
+                  >kedi maması</a
+                >
+                ihtiyacınızda artmış demektir. Artık 15kg’lık paketlere geçerek
+                avantajlı fiyatlardan yararlanmanın zamanı geldi. Onlar beraber
+                sarılmış uyurken sizde web sitesinden
+              </p>
+              <p>
+                15 Kg’lık mama siparişinizi bir tıkla verebilirsiniz. Kapınıza
+                kadar gelecek ve mama bitme derdini ortadan kaldıracaksınız. İki
+                kedi beslemek kedi maması miktarı veya diğer ihtiyaçlarında
+                masrafı arttırsa da sorumluluğunuz da bir hayli azalacaktır.
+                Uzun saatler evde olmamanız durumunda yalnız
+                kalmaktan&nbsp;psikolojik sorunlar&nbsp;yaşamaz, birbirleriyle
+                vakit geçirerek eğlenecekler. Enerjilerini sizinle birlikte
+                çeşitli oyunlar oynayarak harcadıkları için geceleri rahatça
+                uykuya dalarlar. Tabii ki evdeki huzurunuzda en az iki katına
+                çıkacaktır. Bu da paha biçilemez.
+              </p>
+              <p>&nbsp;</p>
             </div>
-            </div>
-            <button class="btn mx-1 my-0 p-0 rounded-1" style="font-size: 14px; background-color: #d7d7d7; width:130px;" data-bs-toggle="collapse" href="#Collapse-about-us" type="button" aria-expanded="false" aria-controls="Collapse-about-us">
-                Devamını Göster
-              </button>
-            
-    
-      </div>
+          </div>
+          <button
+            class="btn mx-1 my-0 p-0 rounded-1"
+            style="font-size: 14px; background-color: #d7d7d7; width: 130px"
+            data-bs-toggle="collapse"
+            href="#Collapse-about-us"
+            type="button"
+            aria-expanded="false"
+            aria-controls="Collapse-about-us"
+          >
+            Devamını Göster
+          </button>
+        </div>
       </div>
 
       <footer id="Footer" class="mx-auto py-2 my-0 justify-content-center">
-        <div class="row w-100 p-0 m-0"
-        style="background: url(data/footer.png) no-repeat center; height: 100px;">
-        </div>
-        <div class="row mx-auto my-5" style="width: 1180px;">
-            <div class="col-6">
-              <p  style="color: #004079; font-weight: 600;">SOSYAL MEDYA</p>
-              <ul class="d-flex list-unstyled gap-3">
-                <li>
-                  <a class="d-flex" href="https://www.facebook.com/" rel="nofollow" data-target="blank">
-                    <img src="/data/facebook.png" alt="Sosyal">
-                  </a>
-                </li>
-                <li>
-                  <a class="d-flex" href="https://www.instagram.com/" rel="nofollow" data-target="blank">
-                    <img src="/data/instagram.png" alt="Sosyal">
-                  </a>
-                </li>
-                <li>
-                  <a class="d-flex" href="/blog" rel="nofollow" data-target="blank">
-                    <img src="/data/blog.png" alt="Sosyal">
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-6">
-              <p style="color: #004079; font-weight: 600;">E-BÜLTEN ABONELİĞİ</p>
-              <div class="d-flex gap-3">
-                <input type="email" class="rounded-1 px-2 w-100" style="border: 1px solid #d4d4d4; background-color: #f9f9f9; height: 50px; font-size: 15px;" placeholder="E-posta adresinizi giriniz.">
-                <input class="rounded-1 fw-medium px-3" type="button" style="background-color: #ff8c00; color: #fff; border: none;" value="Kayıt Ol">
-              </div>
-              <div class="my-3" style="color: #979797; font-size: 15px;">
-                <input type="checkbox" id="" name="" checked="">
-                <a >E-bülten Sözleşmesini okudum kabul ediyorum</a>
-              </div>
-            </div>
-        </div>
-        <div class="row mx-auto my-5" style="width: 1180px;">
-          <div class="col-2">
-            <p style="color: #0b0b0b;" class="d-flex">
-                Kategoriler
-            </p>
-            <div>
-              <ul class="list-unstyled">
-                <li >
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kopek-mamasi">Köpek Maması</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-mamasi">Kedi Maması</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kopek-tasmalari">Köpek Tasmaları</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-kumu">Kedi Kumu</a>
-                </li>
-              </ul>
-            </div>   
-          </div>
-          <div class="col-2">
-            <p style="color: #0b0b0b;" class="d-flex">
-            Önemli Bilgiler
-            </p>
-            <div>
-              <ul class="list-unstyled">
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kopek-mamasi">Sık Sorulan Sorular</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-mamasi">Aydınlatma ve Açık Rıza Metni</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kopek-tasmalari">Çerez Politikası</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-kumu">Üyelik ve Kullanım Şartları</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-kumu">Satış Sözleşmesi</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-kumu">Kişisel Veri Politikası</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-kumu">Ticari Elektronik İzin</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-kumu">Teslimat Koşulları</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-2">
-            <p style="color: #0b0b0b;" class="d-flex">Hızlı Erişim
-            </p>
-            <div>
-              <ul class="list-unstyled">
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kopek-mamasi">Bize Ulaşın</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-mamasi">Hesap Bilgileri</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kopek-tasmalari">Blog Sayfası</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-kumu">Yeni Ürünler</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-kumu">İndirimdekiler</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-kumu">Müşteri Hizmetleri</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-kumu">Sepetim</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-2">
-            <p style="color: #0b0b0b;" class="d-flex">Özel Sayfalar
-            </p>
-            <div>
-              <ul class="list-unstyled">
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kopek-mamasi">Markalar</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-mamasi">4 Ekim Özel</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kopek-tasmalari">Yeni Üyelik</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-kumu">Üye Girişi</a>
-                </li>
-                <li>
-                  <a class="text-decoration-none my-5" style="color: #979797; font-size: 14px; line-height: 18px;" href="/kedi-kumu">Tüy Savaşları</a>
-                </li>
-            </ul>
-            </div>
-          </div>
-          <div class="col-2">
-            <p style="color: #0b0b0b;" class="d-flex">Mobil Uygulama</p>
-            <div class="mb-3" style="width: 160px;">
-                <a href="https://apps.apple.com/tr/"><img src="/data/dl-appstore.png"></a>
-                </div>
-            <div class="mb-3">
-                <a href="https://apps.apple.com/tr"><img src="/data/dl-googleplay.png"></a>
-                    </div>
-            <div >
-                <a href="https://apps.apple.com/tr" ><img src="/data/dl-mobil.png"></a>
-                </div>
-          </div>
-          <div class="col-2">
-            <p style="color: #0b0b0b;" class="d-flex">Müşteri Hizmetleri</p>
-            <div class=" d-flex justify-content-center align-items-center mb-3">
-                <a href="/musteri-hizmetleri" class="d-flex justify-content-center align-items-center rounded-1 text-decoration-none w-100" style="border: 1px solid #d4d4d4; background-color: #f9f9f9; height: 50px;">
-                  <img src="/data/mh-soru.png" class="mx-2">
-                  <span class="ms-2 " style="color: #979797; line-height: 15px; font-size: 14px;">Sıkça Sorulan Sorular</span>
+        <div
+          class="row w-100 p-0 m-0"
+          style="
+            background: url(data/footer.png) no-repeat center;
+            height: 100px;
+          "
+        ></div>
+        <div class="row mx-auto my-5" style="width: 1180px">
+          <div class="col-6">
+            <p style="color: #004079; font-weight: 600">SOSYAL MEDYA</p>
+            <ul class="d-flex list-unstyled gap-3">
+              <li>
+                <a
+                  class="d-flex"
+                  href="https://www.facebook.com/"
+                  rel="nofollow"
+                  data-target="blank"
+                >
+                  <img src="/data/facebook.png" alt="Sosyal" />
                 </a>
+              </li>
+              <li>
+                <a
+                  class="d-flex"
+                  href="https://www.instagram.com/"
+                  rel="nofollow"
+                  data-target="blank"
+                >
+                  <img src="/data/instagram.png" alt="Sosyal" />
+                </a>
+              </li>
+              <li>
+                <a
+                  class="d-flex"
+                  href="/blog"
+                  rel="nofollow"
+                  data-target="blank"
+                >
+                  <img src="/data/blog.png" alt="Sosyal" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <p style="color: #004079; font-weight: 600">E-BÜLTEN ABONELİĞİ</p>
+            <div class="d-flex gap-3">
+              <input
+                type="email"
+                class="rounded-1 px-2 w-100"
+                style="
+                  border: 1px solid #d4d4d4;
+                  background-color: #f9f9f9;
+                  height: 50px;
+                  font-size: 15px;
+                "
+                placeholder="E-posta adresinizi giriniz."
+              />
+              <input
+                class="rounded-1 fw-medium px-3"
+                type="button"
+                style="background-color: #ff8c00; color: #fff; border: none"
+                value="Kayıt Ol"
+              />
+            </div>
+            <div class="my-3" style="color: #979797; font-size: 15px">
+              <input type="checkbox" id="" name="" checked="" />
+              <a>E-bülten Sözleşmesini okudum kabul ediyorum</a>
+            </div>
+          </div>
+        </div>
+        <div class="row mx-auto my-5" style="width: 1180px">
+          <div class="col-2">
+            <p style="color: #0b0b0b" class="d-flex">Kategoriler</p>
+            <div>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kopek-mamasi"
+                    >Köpek Maması</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-mamasi"
+                    >Kedi Maması</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kopek-tasmalari"
+                    >Köpek Tasmaları</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-kumu"
+                    >Kedi Kumu</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <p style="color: #0b0b0b" class="d-flex">Önemli Bilgiler</p>
+            <div>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kopek-mamasi"
+                    >Sık Sorulan Sorular</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-mamasi"
+                    >Aydınlatma ve Açık Rıza Metni</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kopek-tasmalari"
+                    >Çerez Politikası</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-kumu"
+                    >Üyelik ve Kullanım Şartları</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-kumu"
+                    >Satış Sözleşmesi</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-kumu"
+                    >Kişisel Veri Politikası</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-kumu"
+                    >Ticari Elektronik İzin</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-kumu"
+                    >Teslimat Koşulları</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <p style="color: #0b0b0b" class="d-flex">Hızlı Erişim</p>
+            <div>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kopek-mamasi"
+                    >Bize Ulaşın</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-mamasi"
+                    >Hesap Bilgileri</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kopek-tasmalari"
+                    >Blog Sayfası</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-kumu"
+                    >Yeni Ürünler</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-kumu"
+                    >İndirimdekiler</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-kumu"
+                    >Müşteri Hizmetleri</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-kumu"
+                    >Sepetim</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <p style="color: #0b0b0b" class="d-flex">Özel Sayfalar</p>
+            <div>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kopek-mamasi"
+                    >Markalar</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-mamasi"
+                    >4 Ekim Özel</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kopek-tasmalari"
+                    >Yeni Üyelik</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-kumu"
+                    >Üye Girişi</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-decoration-none my-5"
+                    style="color: #979797; font-size: 14px; line-height: 18px"
+                    href="/kedi-kumu"
+                    >Tüy Savaşları</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-2">
+            <p style="color: #0b0b0b" class="d-flex">Mobil Uygulama</p>
+            <div class="mb-3" style="width: 160px">
+              <a href="https://apps.apple.com/tr/"
+                ><img src="/data/dl-appstore.png"
+              /></a>
+            </div>
+            <div class="mb-3">
+              <a href="https://apps.apple.com/tr"
+                ><img src="/data/dl-googleplay.png"
+              /></a>
+            </div>
+            <div>
+              <a href="https://apps.apple.com/tr"
+                ><img src="/data/dl-mobil.png"
+              /></a>
+            </div>
+          </div>
+          <div class="col-2">
+            <p style="color: #0b0b0b" class="d-flex">Müşteri Hizmetleri</p>
+            <div class="d-flex justify-content-center align-items-center mb-3">
+              <a
+                href="/musteri-hizmetleri"
+                class="d-flex justify-content-center align-items-center rounded-1 text-decoration-none w-100"
+                style="
+                  border: 1px solid #d4d4d4;
+                  background-color: #f9f9f9;
+                  height: 50px;
+                "
+              >
+                <img src="/data/mh-soru.png" class="mx-2" />
+                <span
+                  class="ms-2"
+                  style="color: #979797; line-height: 15px; font-size: 14px"
+                  >Sıkça Sorulan Sorular</span
+                >
+              </a>
             </div>
             <div class="d-flex justify-content-center align-items-center mb-3">
-              <a href="tel:02165990093" class=" d-flex flex-column justify-content-center align-items-center text-decoration-none w-100" style="font-size: 20px; font-weight: 400;">
-                <span class="ms-2 " style="color: #00427c; line-height: 15px; font-size: 14px;">Müşteri Destek Hattı</span>
-                    0216 599 00 93
+              <a
+                href="tel:02165990093"
+                class="d-flex flex-column justify-content-center align-items-center text-decoration-none w-100"
+                style="font-size: 20px; font-weight: 400"
+              >
+                <span
+                  class="ms-2"
+                  style="color: #00427c; line-height: 15px; font-size: 14px"
+                  >Müşteri Destek Hattı</span
+                >
+                0216 599 00 93
               </a>
             </div>
-            <div class="d-flex justify-content-center align-items-center ">
-              <a href="https://wa.me/" class="d-flex justify-content-center align-items-center text-decoration-none rounded-1 w-100" style="background-color: #50ca5e; height: 50px;">
-                <img src="/data/mh-ws.png">
-                <div class="d-flex flex-column ms-2 justify-content-center align-items-center" style="color: #fff; font-weight: 500;"><span class="" style="color: #fff; line-height: 15px; font-size: 14px; font-weight: 400;">Whatsapp Destek</span>0 454 841 64 40
+            <div class="d-flex justify-content-center align-items-center">
+              <a
+                href="https://wa.me/"
+                class="d-flex justify-content-center align-items-center text-decoration-none rounded-1 w-100"
+                style="background-color: #50ca5e; height: 50px"
+              >
+                <img src="/data/mh-ws.png" />
+                <div
+                  class="d-flex flex-column ms-2 justify-content-center align-items-center"
+                  style="color: #fff; font-weight: 500"
+                >
+                  <span
+                    class=""
+                    style="
+                      color: #fff;
+                      line-height: 15px;
+                      font-size: 14px;
+                      font-weight: 400;
+                    "
+                    >Whatsapp Destek</span
+                  >0 454 841 64 40
                 </div>
               </a>
-            </div>   
+            </div>
           </div>
         </div>
         <div class="row border" style="border-top: 0.5px solid #f0f0f0"></div>
-        <div class="row mx-auto mt-4" style="width: 1180px;">
-          <div class="col-3 gap-3 d-flex justify-content-center align-items-center">
-                <div class="col "><img src="/data/mastercard.png" alt="Master Card"></div>
-                <div class="col  "><img src="/data/visa.png" alt="Visa"></div>
-                <div class="col "><img src="/data/troy.png" alt="Troy"></div>
+        <div class="row mx-auto mt-4" style="width: 1180px">
+          <div
+            class="col-3 gap-3 d-flex justify-content-center align-items-center"
+          >
+            <div class="col">
+              <img src="/data/mastercard.png" alt="Master Card" />
+            </div>
+            <div class="col"><img src="/data/visa.png" alt="Visa" /></div>
+            <div class="col"><img src="/data/troy.png" alt="Troy" /></div>
           </div>
-          <div class="col-6 d-flex align-items-center" style="height: 40px; color: #979797; font-size: 13px;">
+          <div
+            class="col-6 d-flex align-items-center"
+            style="height: 40px; color: #979797; font-size: 13px"
+          >
             © Copyright 2017 - 2020
-             </div>
+          </div>
           <div class="col-3 d-flex align-items-center">
-          <a href="/" class="text-decoration-none" style="height: 40px; color: #979797; font-size: 13px;" target="blank">E-Ticaret Sistemleriyle Hazırlanmıştır.</a> 
+            <a
+              href="/"
+              class="text-decoration-none"
+              style="height: 40px; color: #979797; font-size: 13px"
+              target="blank"
+              >E-Ticaret Sistemleriyle Hazırlanmıştır.</a
+            >
           </div>
-
         </div>
-        <div class="row mx-0 mt-2 mb-0 py-4" style="background-color: #f0f0f0;">
-          <div class="col-12 d-flex mx-auto justify-content-center align-items-center" >
-            <span style="font-size:13px" >
-                E-Ticaret Sistemleriyle Hazırlanmıştır.</span>
+        <div class="row mx-0 mt-2 mb-0 py-4" style="background-color: #f0f0f0">
+          <div
+            class="col-12 d-flex mx-auto justify-content-center align-items-center"
+          >
+            <span style="font-size: 13px">
+              E-Ticaret Sistemleriyle Hazırlanmıştır.</span
+            >
           </div>
-                
         </div>
-        
       </footer>
     </div>
 
@@ -2188,12 +4375,25 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/owl.carousel.js"></script>
-    <script>    $(document).ready(function() {
-     
-      $(".owl-carousel").owlCarousel();
+    <script>
+      $(document).ready(function () {
+        $("#owlshowCase1").owlCarousel({
+          items: 4,
+        });
+        $("#owlshowCase2").owlCarousel({
+          items: 4,
+        });
+        $("#owlBlog").owlCarousel({
+          items: 3,
+         
+        });
+        $("#owlSlider").owlCarousel({});
+        $("#owlBrand").owlCarousel();
 
+      });
+    </script>
+   
 
-     
-    });</script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
