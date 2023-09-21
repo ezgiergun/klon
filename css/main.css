@@ -141,17 +141,6 @@
   }
 }
 
-@media (max-width: 430px) {
-  #owlBlog .owl-buttons {
-    display: none;
-  }
-}
-@media (max-width: 430px) {
-  #owlBrand .owl-buttons {
-    display: none;
-  }
-}
-
 .about-column {
   text-align: justify;
   text-justify: inter-word;
@@ -175,6 +164,28 @@
   }
 }
 
+/* Owl Carousel Buttons */
+@media (max-width: 430px) {
+  #owlBlog .owl-buttons {
+    display: none;
+  }
+}
+@media (max-width: 430px) {
+  #owlBrand .owl-buttons {
+    display: none;
+  }
+}
+@media (max-width: 430px) {
+  #owlshowCase1 .owl-buttons {
+    display: none;
+  }
+}
+@media (max-width: 430px) {
+  #owlshowCase2 .owl-buttons {
+    display: none;
+  }
+}
+
 #owlBrand .owl-pagination {
   display: none;
 }
@@ -192,6 +203,30 @@
 }
 @media (max-width: 430px) {
   #owlBlog .owl-pagination {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+  }
+}
+
+#owlshowCase1 .owl-pagination {
+  display: none;
+}
+@media (max-width: 430px) {
+  #owlshowCase1 .owl-pagination {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+  }
+}
+
+#owlshowCase2 .owl-pagination {
+  display: none;
+}
+@media (max-width: 430px) {
+  #owlshowCase2 .owl-pagination {
     display: flex;
     margin: 0 auto;
     padding: 0;
