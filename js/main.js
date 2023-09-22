@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  //Header-top dissappears when scrolled
   var topbar = $("#Header-top");
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
@@ -8,12 +9,14 @@ $(document).ready(function () {
     }
   });
 
+  //Add active class when pagination buttons clicked:
   $(".paginate-btn").click(function () {
     $(".paginate-btn").removeClass("active-btn");
 
     $(this).addClass("active-btn");
   });
 
+  //Scroll to top button:
   $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
       $("#backToTop").fadeIn();

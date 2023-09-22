@@ -141,10 +141,6 @@
   text-justify: inter-word;
 }
 
-.row-wide {
-  width: 66%;
-}
-
 .sc-res {
   width: 66%;
 }
@@ -167,11 +163,6 @@
   .about-short {
     max-height: 4.5em;
     overflow: hidden;
-  }
-  .row-wide {
-    width: 100%;
-    margin: 0;
-    padding: 0;
   }
   .sc-res {
     width: 100%;
@@ -230,4 +221,28 @@
     padding: 0;
     justify-content: center;
   }
+}
+
+.textToShorten {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 16ch;
+}
+
+.add-btn {
+  width: 50px;
+  height: 44px;
+  padding: 1em;
+  border: 1px solid #f7954c;
+  background: url(/data/fav2.png) no-repeat center;
+  background-size: 20px;
+}
+.cart-btn {
+  width: 50px;
+  height: 44px;
+  padding: 1em;
+  border: 1px solid #f7954c;
+  background: url(/data/cart2.png) no-repeat center;
+  background-size: 20px;
 }
