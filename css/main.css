@@ -18,7 +18,7 @@
 }
 
 .wsFixed img {
-  max-height: 35px;
+  max-height: 2em;
 }
 
 #backToTop {
@@ -124,7 +124,24 @@
   margin-left: 0.1em;
 }
 
+@media (max-width: 430px) {
+  .brand {
+    font-size: 0.95rem;
+  }
+  .discountedPrice {
+    font-size: 0.95rem;
+  }
+}
 .owl-row {
+  width: 90%;
+}
+
+.about-column {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.row-wide {
   width: 90%;
 }
 
@@ -134,29 +151,13 @@
     margin: 0;
     padding: 0;
   }
-}
-@media (max-width: 430px) {
   .owl-card {
     border: none;
   }
-}
-
-.about-column {
-  text-align: justify;
-  text-justify: inter-word;
-}
-@media (max-width: 767px) {
   .about-short {
     max-height: 4.5em;
     overflow: hidden;
   }
-}
-
-.row-wide {
-  width: 90%;
-}
-
-@media (max-width: 430px) {
   .row-wide {
     width: 100%;
     margin: 0;
@@ -165,67 +166,51 @@
 }
 
 /* Owl Carousel Buttons */
-@media (max-width: 430px) {
-  #owlBlog .owl-buttons {
-    display: none;
-  }
-}
-@media (max-width: 430px) {
-  #owlBrand .owl-buttons {
-    display: none;
-  }
-}
-@media (max-width: 430px) {
-  #owlshowCase1 .owl-buttons {
-    display: none;
-  }
-}
-@media (max-width: 430px) {
-  #owlshowCase2 .owl-buttons {
-    display: none;
-  }
-}
 
 #owlBrand .owl-pagination {
   display: none;
 }
+#owlBlog .owl-pagination {
+  display: none;
+}
+#owlshowCase1 .owl-pagination {
+  display: none;
+}
+#owlshowCase2 .owl-pagination {
+  display: none;
+}
+
 @media (max-width: 430px) {
+  #owlBlog .owl-buttons {
+    display: none;
+  }
+  #owlBrand .owl-buttons {
+    display: none;
+  }
+  #owlshowCase1 .owl-buttons {
+    display: none;
+  }
+  #owlshowCase2 .owl-buttons {
+    display: none;
+  }
   #owlBrand .owl-pagination {
     display: flex;
     margin: 0 auto;
     padding: 0;
     justify-content: center;
   }
-}
-
-#owlBlog .owl-pagination {
-  display: none;
-}
-@media (max-width: 430px) {
   #owlBlog .owl-pagination {
     display: flex;
     margin: 0 auto;
     padding: 0;
     justify-content: center;
   }
-}
-
-#owlshowCase1 .owl-pagination {
-  display: none;
-}
-@media (max-width: 430px) {
   #owlshowCase1 .owl-pagination {
     display: flex;
     margin: 0 auto;
     padding: 0;
     justify-content: center;
   }
-}
-
-#owlshowCase2 .owl-pagination {
-  display: none;
-}
-@media (max-width: 430px) {
   #owlshowCase2 .owl-pagination {
     display: flex;
     margin: 0 auto;
