@@ -142,7 +142,11 @@
 }
 
 .row-wide {
-  width: 90%;
+  width: 66%;
+}
+
+.sc-res {
+  width: 66%;
 }
 
 @media (max-width: 430px) {
@@ -162,6 +166,9 @@
     width: 100%;
     margin: 0;
     padding: 0;
+  }
+  .sc-res {
+    width: 100%;
   }
 }
 
