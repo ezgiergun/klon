@@ -214,17 +214,19 @@
 }
 
 .add-btn {
+  display: flex;
   width: 50px;
   height: 44px;
-  padding: 1em;
+  padding: 1.2em;
   border: 1px solid #f7954c;
   background: url(/data/fav2.png) no-repeat center;
   background-size: 20px;
 }
 .cart-btn {
+  display: flex;
   width: 50px;
   height: 44px;
-  padding: 1em;
+  padding: 1.2em;
   border: 1px solid #f7954c;
   background: url(/data/cart2.png) no-repeat center;
   background-size: 20px;
