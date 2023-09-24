@@ -30,3 +30,14 @@ $(document).ready(function () {
     return false;
   });
 });
+
+//Mobile menu: Toggle class
+$(".toggle").click(function () {
+  var text = $(this).text();
+
+  if (text === "+") {
+    $(this).text("-");
+  } else {
+    $(this).text("+");
+  }
+});
